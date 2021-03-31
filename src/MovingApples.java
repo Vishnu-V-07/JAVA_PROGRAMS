@@ -1,3 +1,4 @@
+
 // Moving Apples
 // There are N number of baskets, where the ith basket contains input2[i] apples. We want to move apples between baskets so that all baskets have the same number of apples. What is the minimum number of apples that must be moved?
 // It is guaranteed that there exists a way to move apples so as to have an equal number of apples in each basket.
@@ -26,41 +27,39 @@
 // Output Specification:
 // Return the minimum number of apples that must be moved so that all baskets have the same number of apples.
 import java.util.*;
+
 public class MovingApples {
 
 	public static void main(String[] args) {
 		// TODO Auto-generated method stub=sc.nnextInt()
-		Scanner sc=new Scanner(System.in);
-		int iNum=sc.nextInt();
-		int iArr[]=new int[iNum];
-		for(int i=0;i<iNum;i++)
-		{
-			iArr[i]=sc.nextInt();
+		Scanner sc = new Scanner(System.in);
+		int iNum = sc.nextInt();
+		int iArr[] = new int[iNum];
+		for (int i = 0; i < iNum; i++) {
+			iArr[i] = sc.nextInt();
 		}
-		int sum=0;
-		for(int i=0;i<iNum;i++)
-		{
-			sum+=iArr[i];
+		int sum = 0;
+		for (int i = 0; i < iNum; i++) {
+			sum += iArr[i];
 		}
-		int avg=sum/iNum;
-		
-	        int t1=0;
-	        for(int i=0;i<iNum;i++){
-	            if(iArr[i]<avg){
-	                int t=avg-iArr[i];
-	                t1+=t;
-	                
-	                iArr[i]+=t;
-	            }
-	            else {
-	                int t=iArr[i]-avg;
-	                t1+=t;
-	          
-	                iArr[i]-=t;
-	            }
-	        }
-	        System.out.println(t1/2);
+		int avg = sum / iNum;
 
+		int t1 = 0;
+		for (int i = 0; i < iNum; i++) {
+			if (iArr[i] < avg) {
+				int t = avg - iArr[i];
+				t1 += t;
+
+				iArr[i] += t;
+			}
+			// else {
+			// int t=iArr[i]-avg;
+			// t1+=t;
+
+			// iArr[i]-=t;
+			// }
+		}
+		System.out.println(t1 + (sum % iNum));
 
 	}
 
