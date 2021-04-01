@@ -1,4 +1,6 @@
 # JAVA_PROGRAMS
+
+#StringsFolder
 YODA
 
 
@@ -77,5 +79,92 @@ WWWW
 BBBB
 Sample Output 3
 WBWB
+
+3.LexiString
+
+Lexi string
+Sample Output
+3
+1Little Jill jumbled up the order of the letters in our dictionary. Now, Jack uses this list to nd the smallest lexicographical string that
+can be made out of this new order. Can you help him?
+You are given a string P that denotes the new order of letters in the English dictionary.
+You need to print the smallest lexicographic string made from the given string S.
+Input Format
+The rst line contains numbers of test cases, T
+The second line has the string P
+The third line has the string S
+Output Format
+Print a single string in a new line for every test case giving the result
+
+Constraints
+1 <= T <= 1000
+Length (P) = 26
+1 <= length (S) <= 100
+All characters in the string S, P are in lowercase
+For example,
+Input:
+2
+poliktgbvfredcxwqaz
+abcd
+qwryupcsfoghjkldezxvbintma
+ativedoc
+Output:
+bdca
+codevita
+Explanation:
+The transformed smallest lexicographical strings are in order they would be if order of letters are changed to string P.
+Sample Input
+2
+poliktgbvfredcxwqaz
+abcd
+qwryupcsfoghjkldezxvbintma
+
+Sample Output
+bdca
+codevita
+
+
+4.SimilarChar
+
+Similar char
+Tahir and Mamta are working on a project in TCS. Tahir being a problem solver came up with an interesting problem for his friend
+Mamta. The problem consists of a string of length N and contains only small case alphabets.
+It will be followed by Q queries, in which each query will contain an integer P (1<=P<=N) denoting a position within the string.
+Mamta's task is to nd the alphabet present at that location and determine the number of occurrences of the same alphabet
+preceding the given location P.
+Mamta is busy with her of ce work. Therefore, she asked you to help her.
+Input Format
+First-line contains an integer N, denoting the length of the string.
+Second-line contains string S itself consists of small case alphabets only ('a' - 'z').
+The third line contains an integer Q denoting the number of queries that will be asked.
+Next, Q lines contain an integer P (1 <= P <= N) for which you need to nd the number occurrence of character present at the Pth location
+preceding P
+Output Format
+For each query, print an integer denoting the answer on a single line.
+Constraints
+1 <= N <= 500000
+S consisting of small case alphabets
+1 <= Q <= 10000
+1 <= P <= N
+For example,
+Input:
+9
+abacsddaa
+2
+9
+3
+Output:
+3
+1
+Explanation:
+Here Q = 2
+For P=9, the character at the 9th location is 'a'. The number of occurrences of 'a' before P i.e., 9 is three.
+Similarly, for P=3, 3rd character is 'a'. The number of occurrences of 'a' before P. i.e., 3 is one.
+Sample Input
+9
+abacsddaa
+2
+9
+
 
 
