@@ -48,5 +48,6 @@ public class MarathonWinner {
         } else {
             System.out.println("3");
         }
+        sc.close();
     }
 }
