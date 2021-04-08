@@ -1,3 +1,6 @@
+//JAVA PROGRAM TO DISPLAY LONGEST WORD IN A SENTENCE
+
+package Strings;
 import java.util.*;
 public class longestword {
 
@@ -5,6 +8,7 @@ public class longestword {
 		// TODO Auto-generated method stub
 		Scanner sc=new Scanner(System.in);
 		String s1=sc.nextLine();
+		sc.close();
 		String s3="";
 		int temp=0;
 		String sArr[]=s1.split(" ");

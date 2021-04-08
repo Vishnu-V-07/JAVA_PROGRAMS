@@ -1,3 +1,6 @@
+// 8. Input: A4B2C2A2
+//    Output: AAAABBCCAA
+package Strings;
 import java.util.*;
 public class CharacterCountReverse {
 
@@ -5,6 +8,7 @@ public class CharacterCountReverse {
 		// TODO Auto-generated method stub
 	       Scanner sc=new Scanner(System.in);
 	       String s1=sc.next();
+		   sc.close();
 	       int iCount=0;
            for(int i=0;i<s1.length();i++)
            {

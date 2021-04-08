@@ -1,3 +1,8 @@
+// 9.PROGRAM TO PRINT ALTERNATE CHARACTERS
+
+// Input:hello
+// output:hlo
+package Strings;
 import java.util.*;
 public class Alternate {
 

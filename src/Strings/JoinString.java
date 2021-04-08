@@ -1,3 +1,8 @@
+// 11.PROGRAM TO JOIN A TWO DIFFRENT STRING WITHOUT USING A INBUILT METHOD OR "+" OPERATOR
+// Input:hi hello
+// Output:hihello
+// Program Name:JoinString
+package Strings;
 import java.util.*;
 public class JoinString {
 
@@ -6,7 +11,7 @@ public class JoinString {
 		Scanner sc=new Scanner(System.in);
 		String s1=sc.next();
 		String s2=sc.next();
-		
+		sc.close();
 		int ilen=s1.length()+s2.length();
 		char cArr[]=new char[ilen];
 		int j=0;

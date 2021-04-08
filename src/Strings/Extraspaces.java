@@ -1,3 +1,8 @@
+// 10.PROGRAM TO PRINT EXTRA SPACES IN A SENTENCE
+// Input:hi      hello    welcome
+// Output:hi hello welcome
+// Program Name:Extraspaces
+package Strings;
 import java.util.*;
 public class Extraspaces {
 

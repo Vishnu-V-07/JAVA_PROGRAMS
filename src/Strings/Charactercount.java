@@ -1,3 +1,8 @@
+// Input:
+// AAAABBCCAA
+// Output:
+// A4B2C2A2
+package Strings;
 import java.util.*;
 public class Charactercount {
 
@@ -5,6 +10,7 @@ public class Charactercount {
 		// TODO Auto-generated method stub
        Scanner sc=new Scanner(System.in);
        String s1=sc.next();
+	   sc.close();
        int iCount=1;
        char ch=s1.charAt(0);
        for(int i=1;i<s1.length();i++)

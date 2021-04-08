@@ -1,3 +1,18 @@
+// 12.PROGRAM TO PRINT THE OCCURENCE OF EACH CHARACTER AND PRINT THE SECOND MOST FREQUENT CHARACTER
+// Input: hello everyone
+// Output:
+// h:1
+// e:4
+// l:2
+// o:2
+//  :1
+// v:1
+// r:1
+// y:1
+// n:1
+// Second most frequent character:l
+// Program Name:SecondmostFreq
+package Strings;
 import java.util.*;
 public class SecondmostFreq {
 
@@ -5,6 +20,7 @@ public class SecondmostFreq {
 		// TODO Auto-generated method stub
 		Scanner sc=new Scanner(System.in);
 		String s1=sc.nextLine();
+		sc.close();
 		int max=0,val=0;
 		int iArr[]=new int[256];
 		char ch[]=new char[s1.length()];

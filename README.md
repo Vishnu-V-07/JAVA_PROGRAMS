@@ -167,6 +167,83 @@ abacsddaa
 9
 
 
+
+5.Java Program to capitalize each word in String
+
+ProgramName: Capitalize
+
+6.JAVA PROGRAM TO DISPLAY LONGEST WORD IN A SENTENCE
+
+ProgramName: longestWord
+
+7. Input:
+   AAAABBCCAA
+   Output:
+   A4B2C2A2
+
+   ProgramName:Charactercount
+
+ 8. Input: A4B2C2A2
+    Output: AAAABBCCAA
+
+    ProgramName:CharactercountReverse
+
+9.PROGRAM TO PRINT ALTERNATE CHARACTERS
+
+Input:hello
+output:hlo
+
+Program Name:Alternate
+
+10.PROGRAM TO PRINT EXTRA SPACES IN A SENTENCE
+Input:hi      hello    welcome
+Output:hi hello welcome
+Program Name:Extraspaces
+
+11.PROGRAM TO JOIN A TWO DIFFRENT STRING WITHOUT USING A INBUILT METHOD OR "+" OPERATOR
+Input:hi hello
+Output:hihello
+Program Name:JoinString
+
+12.PROGRAM TO PRINT THE OCCURENCE OF EACH CHARACTER AND PRINT THE SECOND MOST FREQUENT CHARACTER
+Input: hello everyone
+Output:
+h:1
+e:4
+l:2
+o:2
+ :1
+v:1
+r:1
+y:1
+n:1
+Second most frequent character:l
+Program Name:SecondmostFreq
+
+#InterviewQuestions Folder
+
+1.Given two strings a and b. The task is to find if the string 'b' can be obtained by rotating another string 'a' by exactly 2 places.
+
+Example 1:
+
+Input:
+a = amazon
+b = azonam
+Output: 1
+Explanation: amazon can be rotated anti
+clockwise by two places, which will make
+it as azonam.
+Example 2:
+
+Input:
+a = geeksforgeeks
+b = geeksgeeksfor
+Output: 0
+Explanation: If we rotate geeksforgeeks by
+two place in any direction , we won't get
+geeksgeeksfor.
+
+
 #ArraysFolder
 
 1.Minimum InEquality
