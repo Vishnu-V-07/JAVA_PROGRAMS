@@ -1,3 +1,8 @@
+// 10.PROGRAM TO remove punctuation and special character from a string
+// Input: $$$helolo)))hi
+// Output:helolohi
+// Program Name:RemoveSpecialCharacters
+package Strings;
 import java.util.*;
 public class RemoveSpecialCharacters {
 

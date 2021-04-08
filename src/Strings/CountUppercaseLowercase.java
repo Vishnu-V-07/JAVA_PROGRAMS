@@ -1,3 +1,11 @@
+// 17.PROGRAM TO COUNT THE NUMBER OF UPPERCASE ,LOWERCASE AND SPECIAL CHARACTER IN A STRING
+// Input:hi hello everyone
+// Output: Number of uppercase letter : 0
+// Number of lowercase letter : 15
+// Number of Special characters : 2
+// Number of  vowels : 7
+// Program Name:CountUppercaseLowercase
+package Strings;
 import java.util.*;
 public class CountUppercaseLowercase {
 

@@ -1,3 +1,8 @@
+// 17.PROGRAM TO REVERSE INDIVIDUAL WOORDS IN A STRING
+// Input:hi hello
+// Output:ih olleh
+// Program Name: ReverseIndividualWords
+package Strings;
 import java.util.*;
 public class ReverseIndividualWords {
 

@@ -1,3 +1,10 @@
+// 18.PROGRAM TO CHECK THE GIVEN TWO STRINGS ARE EQUAL OR NOT
+// Input:HELLO
+//       HHELLO
+// Output: Strings are not equal
+
+// Program Name: twoStringsareequal
+package Strings;
 import java.util.*;
 public class twoStringsareequal {
 

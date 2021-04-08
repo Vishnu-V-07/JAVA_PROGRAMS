@@ -220,6 +220,46 @@ n:1
 Second most frequent character:l
 Program Name:SecondmostFreq
 
+13.PROGRAM TO remove punctuation and special character from a string
+Input: $$$helolo)))hi
+Output:helolohi
+Program Name:RemoveSpecialCharacters
+
+14.PROGRAM TO REVERSE A STRING WITHOPUT USING INBUILT FUNCTION
+Input:hi
+Output:ih
+Program Name:ReverseStringwithoutInbuilt
+
+15.program to  reverse the sentence without reversing the numbers in a string
+Input:hello123java
+Output:avajo123lleh
+Program Name:ReverseStringretainingNumbers
+
+16.PROGRAM TO REVERSE INDIVIDUAL WOORDS IN A STRING
+Input:hi hello
+Output:ih olleh
+Program Name: ReverseIndividualWords
+
+17.program to  reverse the sentence  retaining its space position
+Input:HI HELLO
+Output: OL LEHIH
+Program Name:ReverseStringRetainingSpace
+
+18.PROGRAM TO COUNT THE NUMBER OF UPPERCASE ,LOWERCASE AND SPECIAL CHARACTER IN A STRING
+Input:hi hello everyone
+Output: Number of uppercase letter : 0
+Number of lowercase letter : 15
+Number of Special characters : 2
+Number of  vowels : 7
+Program Name:CountUppercaseLowercase
+
+19.PROGRAM TO CHECK THE GIVEN TWO STRINGS ARE EQUAL OR NOT
+Input:HELLO
+      HHELLO
+Output: Strings are not equal
+
+Program Name: twoStringsareequal
+
 #InterviewQuestions Folder
 
 1.Given two strings a and b. The task is to find if the string 'b' can be obtained by rotating another string 'a' by exactly 2 places.
@@ -242,6 +282,9 @@ Output: 0
 Explanation: If we rotate geeksforgeeks by
 two place in any direction , we won't get
 geeksgeeksfor.
+
+
+Program Name:StringRotationByTwoPlaces
 
 
 #ArraysFolder

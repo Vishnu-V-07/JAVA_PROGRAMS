@@ -1,3 +1,8 @@
+// 10.PROGRAM TO REVERSE A STRING WITHOPUT USING INBUILT FUNCTION
+// Input:hi
+// Output:ih
+// Program Name:ReverseStringwithoutInbuilt
+package Strings;
 import java.util.*;
 public class ReverseStringwithoutInbuilt {
 
