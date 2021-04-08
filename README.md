@@ -286,6 +286,17 @@ geeksgeeksfor.
 
 Program Name:StringRotationByTwoPlaces
 
+ 2.You are given a number.Find the largest three digit Integer
+ Input:3001213
+ Output:213
+ Program Name:largestThreeDigitNumber
+
+ 3.You are given a number.Find the largest three ODD digit Integer
+ Input:3001213
+ Output:213
+ Program Name:largestThreeDigitOdd
+
+
 
 #ArraysFolder
 
