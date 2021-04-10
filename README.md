@@ -351,6 +351,14 @@ Output:
 Nodes of singly linked list: hello how are you today
 Nodes of singly linked list: hello how are insert you today
 
+2.Write a program to reverse a given linked list
+input:1 2 3 4
+output:
+Given Linked List
+1 2 3 4
+Reversed Linked list
+4 3 2 1
+
 
 
 
