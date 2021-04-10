@@ -5,9 +5,6 @@
 // 1 2 3 4
 // Reversed Linked list
 // 4 3 2 1
-
-
-
 package DataStructure.linkedlist;
 import java.util.*;
 public class ReverseLinkedList {
