@@ -1,7 +1,10 @@
 import java.util.*;
 public class TelephoneProblem {
 
-	public static void main(String[] args) {
+	public static void main(String[] args)
+	 {
+		
+	
 		// TODO Auto-generated method stub
 		Scanner sc=new Scanner(System.in);
 		int iNum=sc.nextInt();
@@ -112,7 +115,7 @@ public class TelephoneProblem {
 		{
 			hm1.put(numarray[j], dup[j]);
 		}
-		for (Map.Entry<String,Integer> entry : hm.entrySet())
+		for (Map.Entry<String,Integer> entry : hm1.entrySet())
 		{//using map.entrySet() for iteration  
 			
 		}
