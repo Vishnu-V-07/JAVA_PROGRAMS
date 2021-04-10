@@ -332,4 +332,25 @@ Sample Output
 
 
 
+#DATASTRUCTURE_FOLDER
+
+1.Create a linked list from scratch.Define a class called Node and have a String data as the value
+write a function to addNode to add the first n nodes as Strings
+Write a fuction to insertNode to add a node in between 2 nodes in th linked list
+Write a another function to display it.
+Input:
+5
+hello
+how
+are
+you
+today
+3
+insert
+Output:
+Nodes of singly linked list: hello how are you today
+Nodes of singly linked list: hello how are insert you today
+
+
+
 
