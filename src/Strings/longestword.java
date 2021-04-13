@@ -4,8 +4,7 @@ package Strings;
 import java.util.*;
 public class longestword {
 
-	public static void main(String[] args) {
-		// TODO Auto-generated method stub
+	public static void main(String[] args){
 		Scanner sc=new Scanner(System.in);
 		String s1=sc.nextLine();
 		sc.close();
