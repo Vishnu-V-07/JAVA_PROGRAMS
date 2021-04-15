@@ -359,6 +359,28 @@ Given Linked List
 Reversed Linked list
 4 3 2 1
 
+#PATTERNS FOLDER
+
+1.Print the pattern
+I/p:5
+o/p:
+1
+2*3
+4*5*6
+7*8*9*10
+11*12*13*14*15
+11*12*13*14*15
+7*8*9*10
+4*5*6
+2*3
+1
 
 
-
+2.PRINT THE PROGRAM
+I/P:5
+O/P:
+1
+2 7
+3 8 13
+4 9 14 19
+5 10 15 20 25
