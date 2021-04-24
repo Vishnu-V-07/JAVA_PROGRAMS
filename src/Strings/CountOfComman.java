@@ -7,7 +7,7 @@ public class CountOfComman{
         String s1=sc.nextLine();
         String s2=sc.next();
         int count=0;
-        ArrayList<String> al=new ArrayList();
+        ArrayList<String> al=new ArrayList<>();
         for(int i=0;i<s1.length();i++){
             for(int j=0;j<s2.length();j++)
             {
@@ -16,7 +16,7 @@ public class CountOfComman{
                 if(s1.charAt(i)==s1.charAt(j))
                 {
                     count++;
-                    al.add(i);
+                    al.add(String.valueOf(s1.charAt(i)));
                 }
             }
             }
