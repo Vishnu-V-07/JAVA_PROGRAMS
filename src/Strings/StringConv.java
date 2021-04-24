@@ -6,8 +6,8 @@
 
 // O/p: student of siet I am
 
+package Strings;
 import java.util.*;
-
 class StringConv {
     public static void main(String args[]) {
         Scanner sc = new Scanner(System.in);
