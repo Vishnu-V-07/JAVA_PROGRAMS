@@ -1,3 +1,9 @@
+// Given two numbers'x' and 'y'.write a program to printnumber of digits needed to be
+//  flipped convert 'x/' to 'y'
+//   I/P:
+//   7 10
+//   O/P:
+//   3
 package Numbers;
 import java.util.*;
 public class Bitswap {

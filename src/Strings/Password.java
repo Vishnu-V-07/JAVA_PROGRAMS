@@ -1,9 +1,13 @@
-// Given two numbers'x' and 'y'.write a program to printnumber of digits needed to be
- //flipped convert 'x/' to 'y'
- //  I/P:
-//   7 10
-//   O/P:
-//   3
+// GIVEN A PASSWORD ENTERED BY THE USER,CHECK ITS STRENGTH USING THE BELOW 
+// CONSTRAINTS AND DISPLAY EITHER THE PASSWORD IS STRONG OR PASSWORD IS NOT 
+// STRONG
+// A PASSWORD IS STRONG IF ITS HAS:
+// 1.ATLEAST 8 CHARACTERS 
+// 2.ATLEAST 1 SPECIAL CHARACTERS 
+// 3.ATLEAST 1 NUMBER 
+// 4.ATLEAST ONE UPPER AND ONE LOWER CASE CHARACTER 
+// DISPLAY EITHER YOUR PASSWORD IS STRONG OR YOUR PASSWORD IS NOT STRONG 
+
 package Strings;
 import java.util.*;
 public class Password {
