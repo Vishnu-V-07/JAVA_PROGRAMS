@@ -1,4 +1,4 @@
-//Given the series as  1 2 4 8 16 32 64 	identify the n term of the 
+// Given the series as  1 2 4 8 16 32 64 	identify the n term of the 
 // series. 
 // I/P: 
 // 5
