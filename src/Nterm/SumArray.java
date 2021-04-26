@@ -11,8 +11,6 @@ public class SumArray {
 			iArr[i]=sc.nextInt();
 		}
 		int X=sc.nextInt();
-		
-		
 		int c=0;
 		int d=0;
 		for(int i=0;i<iNum;i++)
@@ -25,8 +23,13 @@ public class SumArray {
 				{
 				 System.out.println("Exist");
 				 c=1;
+				 break;
 				}
 				
+			}
+			if(c==1)
+			{
+				break;
 			}
 		}
 		if(c==0)
