@@ -1,3 +1,7 @@
+// PRINT A LINE CONTAINING ALL THE DIVISORS IN INCREASING ORDER SEPERATED BY SPACE
+// I/P: 
+// 10
+// 1 2 5 10
 package Numbers;
 import java.util.*;
 public class divisors {

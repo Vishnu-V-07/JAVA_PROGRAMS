@@ -1,4 +1,9 @@
-//Given the series as  1 2 4 8 16 32 64
+//Given the series as  1 2 4 8 16 32 64 	identify the n term of the 
+// series. 
+// I/P: 
+// 5
+// O/P:
+// 16
 package Nterm;
 import java.util.*;
 public class Nterm {

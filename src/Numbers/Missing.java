@@ -1,3 +1,13 @@
+// GIVEN AN ARRAYC OF SIZE N-1 AND GIVEN THAT THERE ARE NUMBERS
+// FROM 1 TO N WITH ONE ELEMENT MISSING,THE MISSING NUMBER 
+// IS TO FOUND
+
+// I/P: 
+// 5
+// 1 2 4 5 6
+
+// O/P: 
+// 3
 package Numbers;
 import java.util.*;
 public class Missing {

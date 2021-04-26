@@ -1,3 +1,12 @@
+// JAVA PROGRAM TO PRINT X PATTERN 
+// I/P:5
+// O/P : 
+// *   *
+//  * *
+//   *
+//  * *
+// *   *
+
 package Patterns;
 import java.util.*;
 public class Xpattern {
@@ -10,7 +19,7 @@ public class Xpattern {
            int k=n-1-i;
            for(int j=0;j<n;j++)
            {
-               if(i==k || j==k)
+               if(i==j || k==j)
                {
                    System.out.print("*");
                }

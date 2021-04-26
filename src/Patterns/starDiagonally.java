@@ -1,3 +1,12 @@
+// JAVA PROGRAM TO PRINT * DIAGONALLY  
+// I/P:5
+// O/P:
+//  *
+//   *
+//    *
+//     *
+//      *
+
 package Patterns;
 import java.util.*;
 public class starDiagonally {

@@ -1,3 +1,12 @@
+// GIVEN AN ARRAY A OF N POSITIVE INTEGERS AND ANOTHER NUMBER 
+// X.DETERMINE WHETHER OR NO THERE EXIXTS TWO ELEMENTS IN A 
+// WHOSE SUM IS EXACTLY X. 
+// I/P:
+// 5
+// 1 2 3 4 5
+// 5
+// O/P: 
+// Exists
 package Numbers;
 
 import java.util.*;
