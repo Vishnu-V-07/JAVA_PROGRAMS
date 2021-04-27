@@ -1,7 +1,28 @@
-import java.util.*;
-public class Frequency {
 
-	public static void main(String[] args) {
+// PROGRAM TO SORT THE STRING BASED ON FREQUENCY
+
+
+
+// I/P:
+
+// hi hello hi everyone
+
+
+
+// O/P:
+
+// everyone
+
+// hello
+
+// hi
+
+// hi
+package Strings;
+import java.util.*;
+public class SortTheStringbasedonFrequency {
+
+public static void main(String[] args) {
      Scanner sc=new Scanner(System.in);
      String s1=sc.nextLine();
      String sArr[]=s1.split(" ");
@@ -21,10 +42,12 @@ public class Frequency {
     	 }
      }
      Collections.sort(a1);
-     Collections.sort(a2);	
+     
+     Collections.sort(a2);
+    
      for(int i:a2)
      {
-    	 for(int j=0;j<a1.size();j++)
+    	 for(int j=0;j< a1.size() ;j++)
     	 if(i == Collections.frequency(a1,a1.get(j)))
     	 {
     		 System.out.println(a1.get(j)+" ");
