@@ -9,7 +9,7 @@ public class duplicateElement {
             String s3="";
             int count=0;
             int max=0;
-            int dup=0;
+          
             for(int i=0;i<s1.length();i++)
             {
                 count=0;
