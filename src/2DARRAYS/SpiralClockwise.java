@@ -1,4 +1,4 @@
-package Arrays;
+package 2DARRAYS;
 import java.util.*;
 public class SpiralClockwise {
     public static void main(String args[])
