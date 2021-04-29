@@ -1,3 +1,30 @@
+// JUMPING CLOUD PROBLEM IN JAVA
+
+
+
+// I/P:
+
+// 7
+
+// 0 0 1 0 0 1 0
+
+// O/P:
+
+// 4
+
+
+
+// I/P:
+
+// 6
+
+// 0 0 0 0 1 0
+
+// O/P:
+
+// 3
+
+
 package Arrays;
 import java.util.*;
 class JumpingCloud  { 

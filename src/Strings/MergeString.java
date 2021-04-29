@@ -1,3 +1,18 @@
+// MERGE TWO STRINGS ALTERNATIVELY
+
+
+
+// I/P:
+
+// az
+
+// bsd
+
+// O/P:
+
+// abzsd
+
+
 package Strings;
 import java.util.*;
 public class MergeString {

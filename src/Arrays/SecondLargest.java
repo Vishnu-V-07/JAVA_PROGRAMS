@@ -1,3 +1,26 @@
+// Print the index of the second largest number in the positive array.If second largsest number duplicates       print -1
+
+// Scenerio 1:
+
+// I/P:
+
+// 6
+
+// 18 11 12 13 16 11
+
+// O/P:
+
+// 4
+
+// I/P :
+
+// 6
+
+// 1 3 3 2 5 5
+
+// O/P:
+
+// -1
 package Arrays;
 import java.util.*;
 public class SecondLargest {
