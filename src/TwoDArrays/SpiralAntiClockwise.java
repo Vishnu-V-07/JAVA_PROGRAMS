@@ -1,78 +1,80 @@
 package TwoDArrays;
 import java.util.*;
-public class SpiralClockwise2 {
-    public static void Clockwise(int arr[][],int r,int c,int rot)
+public class SpiralAntiClockwise {
+    public static void AntiClockwise(int arr[][],int r,int c,int rot)
     {
-        int t1=r;
+        int t=r;
         int t2=c;
-        
-
-        int prev,curr=0;
-        if(r!=c)
-        {
-            System.out.println("Row and coloumn should be equal");
-        }
-        else{
-            for(int k=0;k<rot;k++)
+       for(int k=0;k<rot;k++)
+       {
+            int row=0;
+            int col=0;
+            r=t;
+            c=t2;
+            int prev=0,curr=0;
+            if(r==c)
             {
-                int row=0;
-                int col=0;
-                r=t1;
-                c=t2;
                 while(row<r && col<c)
                 {
-                    
+                
                     if(row+1==r || col+1==c)
                     {
                         break;
                     }
-                    prev=arr[row+1][col];
-                    for(int i=col;i<c;i++)
+                    prev=arr[row+1][c-1];
+                    for(int i=c-1;i>=col;i--)
                     {
                         curr=arr[row][i];
                         arr[row][i]=prev;
                         prev=curr;
+
                     }
                     row++;
                     for(int i=row;i<r;i++)
                     {
-                        curr=arr[i][c-1];
-                        arr[i][c-1]=prev;
+                        curr=arr[i][col];
+                        arr[i][col]=prev;
                         prev=curr;
+
                     }
-                    c--;
-                    for(int i=c-1;i>=col;i--)
+                    col++;
+                    for(int i=col;i<c;i++)
                     {
                         curr=arr[r-1][i];
                         arr[r-1][i]=prev;
                         prev=curr;
+
                     }
                     r--;
                     for(int i=r-1;i>=row;i--)
                     {
-                        curr=arr[i][col];
-                        arr[i][col]=prev;
+                        curr=arr[i][c-1];
+                        arr[i][c-1]=prev;
                         prev=curr;
+
                     }
-                    col++;
+                    c--;
+
 
                 }
+            }
+            else{
+                System.out.println("Row and column size should be equal");
+            }
         }
-            for(int i=0;i<t1;i++)
+            for(int i=0;i<t;i++)
             {
                 for(int j=0;j<t2;j++)
                 {
-                  System.out.print(arr[i][j]+" ");
+                    System.out.print(arr[i][j]+" ") ;
                 }
                 System.out.println();
             }
-            
         }
-
-    }
+    
     public static void main(String args[])
     {
-        Scanner sc=new Scanner(System.in);
+        Scanner sc= new Scanner(System.in);
         int r=sc.nextInt();
         int c=sc.nextInt();
         int rot=sc.nextInt();
@@ -85,7 +87,9 @@ public class SpiralClockwise2 {
             }
         }
         System.out.println();
-        Clockwise(arr,r,c,rot);
+        AntiClockwise(arr,r,c,rot);
+        
+
     }
     
 }
