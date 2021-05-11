@@ -1,3 +1,10 @@
+// 1
+// 2
+// ABCDE
+// Left Shift
+// BCDEA
+// Right Shift
+// EABCD
 package Strings;
 import java.util.*;
 public class ShiftingStrings {
