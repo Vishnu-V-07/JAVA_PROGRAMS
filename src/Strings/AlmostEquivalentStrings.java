@@ -1,5 +1,6 @@
 package Strings;
 import java.util.*;
+import java.util.TreeSet;
 public class AlmostEquivalentStrings {
     public static void Equivalent(String s1,String s2)
     {
@@ -79,6 +80,7 @@ public class AlmostEquivalentStrings {
         String s1=sc.next();
         String s2=sc.next();
         Equivalent(s1,s2);
+        sc.close();
     }
     
 }

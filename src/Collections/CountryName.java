@@ -1,0 +1,10 @@
+package Collections;
+import java.util.*;
+public class CountryName {
+    public static void main(String args[])
+    {
+        Scanner sc=new Scanner(System.in);
+        
+    }
+    
+}
