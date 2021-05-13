@@ -4,31 +4,28 @@ public class AddingStarBeforelengthisFour {
     public static void AddingStar(ArrayList<String> al,int iNum)
     {
         String temp="";
-        ArrayList<String> al2=new ArrayList<>();
+        //ArrayList<String> al2=new ArrayList<>();
+        Scanner sc=new Scanner(System.in);
          for(int i=0;i<iNum;i++)
          {
-            temp=al.get(i);
+            temp=sc.next();
             if(temp.length()==4)
             {
-               al2.add("****");
-               al2.add(al.get(i));
+               al.add("****");
+               al.add(temp);
             }
             else{
-                al2.add(al.get(i));
+                al.add(temp);
             }
             temp="";
          }
-         System.out.println(al2);
+         System.out.println(al);
     }
     public static void main(String args[])
     {
         Scanner sc=new Scanner(System.in);
         int iNum=sc.nextInt();
         ArrayList<String> al=new ArrayList<>();
-        for(int i=0;i<iNum;i++)
-        {
-            al.add(sc.next());
-        }
         AddingStar(al,iNum);
         sc.close();
     }

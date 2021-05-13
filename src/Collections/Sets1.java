@@ -1,6 +1,5 @@
 package Collections;
 import java.util.*;
-import java.util.NavigableSet;
 public class Sets1 {
     public static void display(HashSet<Integer>hs,LinkedHashSet<Integer>lhs,TreeSet<Integer>ts)
     {
@@ -12,14 +11,15 @@ public class Sets1 {
     {
         Scanner sc=new Scanner(System.in);
         int iNum=sc.nextInt();
-        HashSet<Integer> hs=new HashSet<>();
-        LinkedHashSet<Integer> lhs=new LinkedHashSet<>();
-        TreeSet<Integer> ts=new TreeSet<>();
-        for(int i=1;i<=iNum;i++)
+        HashSet<Integer> hs=new HashSet<Integer>();
+        LinkedHashSet<Integer> lhs=new LinkedHashSet<Integer>();
+        TreeSet<Integer> ts=new TreeSet<Integer>();
+        for(int i=0;i<iNum;i++)
         {
-            hs.add(i);
-            lhs.add(i);
-            ts.add(i);
+            int k=sc.nextInt();
+            hs.add(k);
+            lhs.add(k);
+            ts.add(k);
 
         }
         display(hs,lhs,ts);
@@ -27,3 +27,5 @@ public class Sets1 {
     }
     
 }
+// 5
+// 9 10 6 5 4
