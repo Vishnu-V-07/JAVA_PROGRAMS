@@ -20,8 +20,7 @@ public class BalanceParenthesis {
                     
                 }
                 else
-                {
-                    
+                {  
                     b=st.peek();
                     if((b=='{' && c=='}') || (b=='[' && c==']') || (b=='(' && c==')'))
                     {

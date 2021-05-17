@@ -5,62 +5,52 @@ public class StackOperations {
     public static void toPush(int b,Stack<Integer> st)
     {
         st.push(b);
-        System.out.println(st);
+      
     }
     public static void toPop(Stack<Integer> st)
     {
         st.pop();
     }
-    public static void toMax(Stack<Integer> st)
-    {
-        int max=0,temp=0;
-        for(int i:st)
-        {
-            temp=i;
-            System.out.println(temp);
-            if(temp>max)
-            {
-                max=temp;
-            }
-        }
-        System.out.println(max);
-    }
-
+    
     public static void main(String args[])
     {
         Scanner sc=new Scanner(System.in);
         int iNum=sc.nextInt();
         Stack<Integer> st=new Stack<Integer>();
+        ArrayList<Integer> al=new ArrayList<>();
         for(int i=0;i<iNum;i++)
         {
             int a=sc.nextInt();
-            int b=0;
+          
+            int max=0;
             if(a==1)
             {
-                b=sc.nextInt();
+               int b=sc.nextInt();
+                toPush(b,st);
                 
             }
-            else{
-                int c=sc.nextInt();
-                if(c==1)
-                {
-                    toPush(b,st);
-                }
-                if(c==2)
-                {
-                    toPop(st);
-                }
-                if(c==3)
-                {
-                    toMax(st);
-                }
-                
+            else if(a==2)
+            {
+                toPop(st);
             }
+            else if(a==3)
+            {
+                int c=Collections.max(st);
+                al.add(c);
 
+            }
+            
+
+        }
+        System.out.println();
+        for(int i=0;i<al.size();i++)
+        {
+            System.out.println(al.get(i));
         }
     }
     
 }
+
 
 //I/P:
 // 10
@@ -74,3 +64,7 @@ public class StackOperations {
 // 3
 // 1 91
 // 3
+
+// O/P:
+// 26
+// 91
