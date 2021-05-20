@@ -27,3 +27,10 @@ public class diagonalstarNumbers {
     }
     
 }
+
+// 5
+// 5432*
+// 543*1
+// 54*21
+// 5*321
+// *4321

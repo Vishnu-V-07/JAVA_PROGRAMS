@@ -21,7 +21,7 @@ public class distanceString {
               
             }
         }
-        else
+        else if(s2.length()>s1.length())
         {
             for(int i=0;i<s1.length();i++)
             {
@@ -45,6 +45,7 @@ public class distanceString {
        // System.out.println(s3);
         System.out.println(count);
     }
+
     public static void main(String args[])
     {
         Scanner sc=new Scanner(System.in);
