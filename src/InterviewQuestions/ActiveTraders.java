@@ -45,6 +45,8 @@ public class ActiveTraders {
 }
 
 
+// I/P:
+
 // 23
 // BigCrop
 // BigCrop
@@ -69,3 +71,8 @@ public class ActiveTraders {
 // Acme
 // Littlecorp
 // Nadircorp
+
+
+//O/P:
+// {BigCrop=10, Abc=1, Littlecorp=1, Zork=5, Acme=5, Nadircorp=1}
+// [Acme, BigCrop, Zork]

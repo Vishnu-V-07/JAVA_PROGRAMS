@@ -14,7 +14,7 @@ abstract class AdminDetails{
 class Members extends AdminDetails{
     public void StudentDetails()
     {
-        System.out.println("Member A belongs to the Admin ZZZ");
+        System.out.println("Member A belongs to the Admin ");
     }
 
 }
