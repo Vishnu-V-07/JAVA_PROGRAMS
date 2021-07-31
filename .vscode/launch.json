@@ -1,0 +1,1829 @@
+{
+    // Use IntelliSense to learn about possible attributes.
+    // Hover to view descriptions of existing attributes.
+    // For more information, visit: https://go.microsoft.com/fwlink/?linkid=830387
+    "version": "0.2.0",
+    "configurations": [
+        
+
+        {
+            "type": "java",
+            "name": "Launch Current File",
+            "request": "launch",
+            "mainClass": "${file}"
+        },
+        {
+            "type": "java",
+            "name": "Launch Ahex",
+            "request": "launch",
+            "mainClass": "Ahex",
+            "projectName": "practice problem"
+        },
+        {
+            "type": "java",
+            "name": "Launch Anagram",
+            "request": "launch",
+            "mainClass": "Anagram",
+            "projectName": "practice problem"
+        },
+        {
+            "type": "java",
+            "name": "Launch ArmstrongNumberBetweenrange",
+            "request": "launch",
+            "mainClass": "ArmstrongNumberBetweenrange",
+            "projectName": "practice problem"
+        },
+        {
+            "type": "java",
+            "name": "Launch Arrayrotation",
+            "request": "launch",
+            "mainClass": "Arrayrotation",
+            "projectName": "practice problem"
+        },
+        {
+            "type": "java",
+            "name": "Launch AlternateSortArray",
+            "request": "launch",
+            "mainClass": "Arrays.AlternateSortArray",
+            "projectName": "practice problem"
+        },
+        {
+            "type": "java",
+            "name": "Launch ArrayRotation",
+            "request": "launch",
+            "mainClass": "Arrays.ArrayRotation",
+            "projectName": "practice problem"
+        },
+        {
+            "type": "java",
+            "name": "Launch ArraysumOfAnotherElements",
+            "request": "launch",
+            "mainClass": "Arrays.ArraysumOfAnotherElements",
+            "projectName": "practice problem"
+        },
+        {
+            "type": "java",
+            "name": "Launch CheckNumberPresentinArray",
+            "request": "launch",
+            "mainClass": "Arrays.CheckNumberPresentinArray",
+            "projectName": "practice problem"
+        },
+        {
+            "type": "java",
+            "name": "Launch DiffrenceOfIndicesoflargestandSmallest",
+            "request": "launch",
+            "mainClass": "Arrays.DiffrenceOfIndicesoflargestandSmallest",
+            "projectName": "practice problem"
+        },
+        {
+            "type": "java",
+            "name": "Launch Extraelement",
+            "request": "launch",
+            "mainClass": "Arrays.Extraelement",
+            "projectName": "practice problem"
+        },
+        {
+            "type": "java",
+            "name": "Launch InsertTwoSortedArray",
+            "request": "launch",
+            "mainClass": "Arrays.InsertTwoSortedArray",
+            "projectName": "practice problem"
+        },
+        {
+            "type": "java",
+            "name": "Launch JumpingCloud",
+            "request": "launch",
+            "mainClass": "Arrays.JumpingCloud",
+            "projectName": "practice problem"
+        },
+        {
+            "type": "java",
+            "name": "Launch LongestSubsequencearray",
+            "request": "launch",
+            "mainClass": "Arrays.LongestSubsequencearray",
+            "projectName": "practice problem"
+        },
+        {
+            "type": "java",
+            "name": "Launch MarathonWinner",
+            "request": "launch",
+            "mainClass": "Arrays.MarathonWinner",
+            "projectName": "practice problem"
+        },
+        {
+            "type": "java",
+            "name": "Launch MinimumInEquality",
+            "request": "launch",
+            "mainClass": "Arrays.MinimumInEquality",
+            "projectName": "practice problem"
+        },
+        {
+            "type": "java",
+            "name": "Launch NextGreatest",
+            "request": "launch",
+            "mainClass": "Arrays.NextGreatest",
+            "projectName": "practice problem"
+        },
+        {
+            "type": "java",
+            "name": "Launch OddEvenReplace",
+            "request": "launch",
+            "mainClass": "Arrays.OddEvenReplace",
+            "projectName": "practice problem"
+        },
+        {
+            "type": "java",
+            "name": "Launch ProductOfArray",
+            "request": "launch",
+            "mainClass": "Arrays.ProductOfArray",
+            "projectName": "practice problem"
+        },
+        {
+            "type": "java",
+            "name": "Launch Search",
+            "request": "launch",
+            "mainClass": "Arrays.Search",
+            "projectName": "practice problem"
+        },
+        {
+            "type": "java",
+            "name": "Launch SecondLargest",
+            "request": "launch",
+            "mainClass": "Arrays.SecondLargest",
+            "projectName": "practice problem"
+        },
+        {
+            "type": "java",
+            "name": "Launch SecondLargestDuplicate",
+            "request": "launch",
+            "mainClass": "Arrays.SecondLargestDuplicate",
+            "projectName": "practice problem"
+        },
+        {
+            "type": "java",
+            "name": "Launch SorttheelementsbyitsfrequencyDescending",
+            "request": "launch",
+            "mainClass": "Arrays.SorttheelementsbyitsfrequencyDescending",
+            "projectName": "practice problem"
+        },
+        {
+            "type": "java",
+            "name": "Launch SumOfOddelements",
+            "request": "launch",
+            "mainClass": "Arrays.SumOfOddelements",
+            "projectName": "practice problem"
+        },
+        {
+            "type": "java",
+            "name": "Launch SumofElements",
+            "request": "launch",
+            "mainClass": "Arrays.SumofElements",
+            "projectName": "practice problem"
+        },
+        {
+            "type": "java",
+            "name": "Launch Union",
+            "request": "launch",
+            "mainClass": "Arrays.Union",
+            "projectName": "practice problem"
+        },
+        {
+            "type": "java",
+            "name": "Launch Unique",
+            "request": "launch",
+            "mainClass": "Arrays.Unique",
+            "projectName": "practice problem"
+        },
+        {
+            "type": "java",
+            "name": "Launch ZeroCount",
+            "request": "launch",
+            "mainClass": "Arrays.ZeroCount",
+            "projectName": "practice problem"
+        },
+        {
+            "type": "java",
+            "name": "Launch pivotvalue",
+            "request": "launch",
+            "mainClass": "Arrays.pivotvalue",
+            "projectName": "practice problem"
+        },
+        {
+            "type": "java",
+            "name": "Launch sortarrsum",
+            "request": "launch",
+            "mainClass": "Arrays.sortarrsum",
+            "projectName": "practice problem"
+        },
+        {
+            "type": "java",
+            "name": "Launch Ascendingwordslengthremoveduplicate",
+            "request": "launch",
+            "mainClass": "Ascendingwordslengthremoveduplicate",
+            "projectName": "practice problem"
+        },
+        {
+            "type": "java",
+            "name": "Launch Coin",
+            "request": "launch",
+            "mainClass": "Coin",
+            "projectName": "practice problem"
+        },
+        {
+            "type": "java",
+            "name": "Launch AddingStarBeforelengthisFour",
+            "request": "launch",
+            "mainClass": "Collections.AddingStarBeforelengthisFour",
+            "projectName": "practice problem"
+        },
+        {
+            "type": "java",
+            "name": "Launch ArrayList1",
+            "request": "launch",
+            "mainClass": "Collections.ArrayList1",
+            "projectName": "practice problem"
+        },
+        {
+            "type": "java",
+            "name": "Launch BalanceParenthesis",
+            "request": "launch",
+            "mainClass": "Collections.BalanceParenthesis",
+            "projectName": "practice problem"
+        },
+        {
+            "type": "java",
+            "name": "Launch BirthdayTreat",
+            "request": "launch",
+            "mainClass": "Collections.BirthdayTreat",
+            "projectName": "practice problem"
+        },
+        {
+            "type": "java",
+            "name": "Launch Country",
+            "request": "launch",
+            "mainClass": "Collections.Country",
+            "projectName": "practice problem"
+        },
+        {
+            "type": "java",
+            "name": "Launch FindingPairs",
+            "request": "launch",
+            "mainClass": "Collections.FindingPairs",
+            "projectName": "practice problem"
+        },
+        {
+            "type": "java",
+            "name": "Launch Map1",
+            "request": "launch",
+            "mainClass": "Collections.Map1",
+            "projectName": "practice problem"
+        },
+        {
+            "type": "java",
+            "name": "Launch MapCountry",
+            "request": "launch",
+            "mainClass": "Collections.MapCountry",
+            "projectName": "practice problem"
+        },
+        {
+            "type": "java",
+            "name": "Launch NumberLocatedInYthpositionOfXthPosition",
+            "request": "launch",
+            "mainClass": "Collections.NumberLocatedInYthpositionOfXthPosition",
+            "projectName": "practice problem"
+        },
+        {
+            "type": "java",
+            "name": "Launch Sets1",
+            "request": "launch",
+            "mainClass": "Collections.Sets1",
+            "projectName": "practice problem"
+        },
+        {
+            "type": "java",
+            "name": "Launch SortElementsBasedonWeight",
+            "request": "launch",
+            "mainClass": "Collections.SortElementsBasedonWeight",
+            "projectName": "practice problem"
+        },
+        {
+            "type": "java",
+            "name": "Launch StackOperations",
+            "request": "launch",
+            "mainClass": "Collections.StackOperations",
+            "projectName": "practice problem"
+        },
+        {
+            "type": "java",
+            "name": "Launch SwitchPairs",
+            "request": "launch",
+            "mainClass": "Collections.SwitchPairs",
+            "projectName": "practice problem"
+        },
+        {
+            "type": "java",
+            "name": "Launch UniquePair",
+            "request": "launch",
+            "mainClass": "Collections.UniquePair",
+            "projectName": "practice problem"
+        },
+        {
+            "type": "java",
+            "name": "Launch WorkingTreeset",
+            "request": "launch",
+            "mainClass": "Collections.WorkingTreeset",
+            "projectName": "practice problem"
+        },
+        {
+            "type": "java",
+            "name": "Launch CombinationofNumbersorNot",
+            "request": "launch",
+            "mainClass": "CombinationofNumbersorNot",
+            "projectName": "practice problem"
+        },
+        {
+            "type": "java",
+            "name": "Launch CommanCharacters",
+            "request": "launch",
+            "mainClass": "CommanCharacters",
+            "projectName": "practice problem"
+        },
+        {
+            "type": "java",
+            "name": "Launch LinkedList3",
+            "request": "launch",
+            "mainClass": "DataStructure.linkedlist.LinkedList3",
+            "projectName": "practice problem"
+        },
+        {
+            "type": "java",
+            "name": "Launch ReverseLinkedList",
+            "request": "launch",
+            "mainClass": "DataStructure.linkedlist.ReverseLinkedList",
+            "projectName": "practice problem"
+        },
+        {
+            "type": "java",
+            "name": "Launch DecimalToRoman",
+            "request": "launch",
+            "mainClass": "DecimalToRoman",
+            "projectName": "practice problem"
+        },
+        {
+            "type": "java",
+            "name": "Launch Diamond",
+            "request": "launch",
+            "mainClass": "Diamond",
+            "projectName": "practice problem"
+        },
+        {
+            "type": "java",
+            "name": "Launch Duplicate",
+            "request": "launch",
+            "mainClass": "Duplicate",
+            "projectName": "practice problem"
+        },
+        {
+            "type": "java",
+            "name": "Launch FactorialOfANum",
+            "request": "launch",
+            "mainClass": "FactorialOfANum",
+            "projectName": "practice problem"
+        },
+        {
+            "type": "java",
+            "name": "Launch Fibonacci",
+            "request": "launch",
+            "mainClass": "Fibonacci",
+            "projectName": "practice problem"
+        },
+        {
+            "type": "java",
+            "name": "Launch GradeCalculation",
+            "request": "launch",
+            "mainClass": "GradeCalculation",
+            "projectName": "practice problem"
+        },
+        {
+            "type": "java",
+            "name": "Launch CountingValleys",
+            "request": "launch",
+            "mainClass": "HackerRank_problems.CountingValleys",
+            "projectName": "practice problem"
+        },
+        {
+            "type": "java",
+            "name": "Launch Multiplicationtable",
+            "request": "launch",
+            "mainClass": "HackerRank_problems.Multiplicationtable",
+            "projectName": "practice problem"
+        },
+        {
+            "type": "java",
+            "name": "Launch RepeatedString",
+            "request": "launch",
+            "mainClass": "HackerRank_problems.RepeatedString",
+            "projectName": "practice problem"
+        },
+        {
+            "type": "java",
+            "name": "Launch SalesByMatch",
+            "request": "launch",
+            "mainClass": "HackerRank_problems.SalesByMatch",
+            "projectName": "practice problem"
+        },
+        {
+            "type": "java",
+            "name": "Launch ifelse",
+            "request": "launch",
+            "mainClass": "HackerRank_problems.ifelse",
+            "projectName": "practice problem"
+        },
+        {
+            "type": "java",
+            "name": "Launch Person",
+            "request": "launch",
+            "mainClass": "HackerRank_problems.practice_problems.Person",
+            "projectName": "practice problem"
+        },
+        {
+            "type": "java",
+            "name": "Launch ScanNext",
+            "request": "launch",
+            "mainClass": "HackerRank_problems.practice_problems.ScanNext",
+            "projectName": "practice problem"
+        },
+        {
+            "type": "java",
+            "name": "Launch TelephoneBook",
+            "request": "launch",
+            "mainClass": "HackerRank_problems.practice_problems.TelephoneBook",
+            "projectName": "practice problem"
+        },
+        {
+            "type": "java",
+            "name": "Launch series",
+            "request": "launch",
+            "mainClass": "HackerRank_problems.series",
+            "projectName": "practice problem"
+        },
+        {
+            "type": "java",
+            "name": "Launch InsertSortedlist",
+            "request": "launch",
+            "mainClass": "InsertSortedlist",
+            "projectName": "practice problem"
+        },
+        {
+            "type": "java",
+            "name": "Launch ActiveTraders",
+            "request": "launch",
+            "mainClass": "InterviewQuestions.ActiveTraders",
+            "projectName": "practice problem"
+        },
+        {
+            "type": "java",
+            "name": "Launch C7_C10_WaterTank",
+            "request": "launch",
+            "mainClass": "InterviewQuestions.C7_C10_WaterTank",
+            "projectName": "practice problem"
+        },
+        {
+            "type": "java",
+            "name": "Launch CollectingCandies",
+            "request": "launch",
+            "mainClass": "InterviewQuestions.CollectingCandies",
+            "projectName": "practice problem"
+        },
+        {
+            "type": "java",
+            "name": "Launch JohnTransport",
+            "request": "launch",
+            "mainClass": "InterviewQuestions.JohnTransport",
+            "projectName": "practice problem"
+        },
+        {
+            "type": "java",
+            "name": "Launch Main",
+            "request": "launch",
+            "mainClass": "InterviewQuestions.Main",
+            "projectName": "practice problem"
+        },
+        {
+            "type": "java",
+            "name": "Launch StringRotationByTwoPlaces",
+            "request": "launch",
+            "mainClass": "InterviewQuestions.StringRotationByTwoPlaces",
+            "projectName": "practice problem"
+        },
+        {
+            "type": "java",
+            "name": "Launch largestThreeDigitNumber",
+            "request": "launch",
+            "mainClass": "InterviewQuestions.largestThreeDigitNumber",
+            "projectName": "practice problem"
+        },
+        {
+            "type": "java",
+            "name": "Launch largestThreedigitOdd",
+            "request": "launch",
+            "mainClass": "InterviewQuestions.largestThreedigitOdd",
+            "projectName": "practice problem"
+        },
+        {
+            "type": "java",
+            "name": "Launch Kposition",
+            "request": "launch",
+            "mainClass": "Kposition",
+            "projectName": "practice problem"
+        },
+        {
+            "type": "java",
+            "name": "Launch LargestPossible",
+            "request": "launch",
+            "mainClass": "LargestPossible",
+            "projectName": "practice problem"
+        },
+        {
+            "type": "java",
+            "name": "Launch Leaders",
+            "request": "launch",
+            "mainClass": "Leaders",
+            "projectName": "practice problem"
+        },
+        {
+            "type": "java",
+            "name": "Launch LowerTriangleMatrix",
+            "request": "launch",
+            "mainClass": "LowerTriangleMatrix",
+            "projectName": "practice problem"
+        },
+        {
+            "type": "java",
+            "name": "Launch Minimumcoin",
+            "request": "launch",
+            "mainClass": "Minimumcoin",
+            "projectName": "practice problem"
+        },
+        {
+            "type": "java",
+            "name": "Launch MovingApples",
+            "request": "launch",
+            "mainClass": "MovingApples",
+            "projectName": "practice problem"
+        },
+        {
+            "type": "java",
+            "name": "Launch MultiplyDivisionWithoutoperator",
+            "request": "launch",
+            "mainClass": "MultiplyDivisionWithoutoperator",
+            "projectName": "practice problem"
+        },
+        {
+            "type": "java",
+            "name": "Launch Diagonal",
+            "request": "launch",
+            "mainClass": "Nterm.Diagonal",
+            "projectName": "practice problem"
+        },
+        {
+            "type": "java",
+            "name": "Launch Frequency",
+            "request": "launch",
+            "mainClass": "Nterm.Frequency",
+            "projectName": "practice problem"
+        },
+        {
+            "type": "java",
+            "name": "Launch Missing",
+            "request": "launch",
+            "mainClass": "Nterm.Missing",
+            "projectName": "practice problem"
+        },
+        {
+            "type": "java",
+            "name": "Launch Nterm",
+            "request": "launch",
+            "mainClass": "Nterm.Nterm",
+            "projectName": "practice problem"
+        },
+        {
+            "type": "java",
+            "name": "Launch SumArray",
+            "request": "launch",
+            "mainClass": "Nterm.SumArray",
+            "projectName": "practice problem"
+        },
+        {
+            "type": "java",
+            "name": "Launch ThreeFourSeries",
+            "request": "launch",
+            "mainClass": "Nterm.ThreeFourSeries",
+            "projectName": "practice problem"
+        },
+        {
+            "type": "java",
+            "name": "Launch divisors",
+            "request": "launch",
+            "mainClass": "Nterm.divisors",
+            "projectName": "practice problem"
+        },
+        {
+            "type": "java",
+            "name": "Launch palindrome",
+            "request": "launch",
+            "mainClass": "Nterm.palindrome",
+            "projectName": "practice problem"
+        },
+        {
+            "type": "java",
+            "name": "Launch Bitswap",
+            "request": "launch",
+            "mainClass": "Numbers.Bitswap",
+            "projectName": "practice problem"
+        },
+        {
+            "type": "java",
+            "name": "Launch BrilliantBingo",
+            "request": "launch",
+            "mainClass": "Numbers.BrilliantBingo",
+            "projectName": "practice problem"
+        },
+        {
+            "type": "java",
+            "name": "Launch ClimbStepsCount",
+            "request": "launch",
+            "mainClass": "Numbers.ClimbStepsCount",
+            "projectName": "practice problem"
+        },
+        {
+            "type": "java",
+            "name": "Launch Countofconsecutive1sinBinary",
+            "request": "launch",
+            "mainClass": "Numbers.Countofconsecutive1sinBinary",
+            "projectName": "practice problem"
+        },
+        {
+            "type": "java",
+            "name": "Launch Exits",
+            "request": "launch",
+            "mainClass": "Numbers.Exits",
+            "projectName": "practice problem"
+        },
+        {
+            "type": "java",
+            "name": "Launch Factorial",
+            "request": "launch",
+            "mainClass": "Numbers.Factorial",
+            "projectName": "practice problem"
+        },
+        {
+            "type": "java",
+            "name": "Launch GeometricSeries",
+            "request": "launch",
+            "mainClass": "Numbers.GeometricSeries",
+            "projectName": "practice problem"
+        },
+        {
+            "type": "java",
+            "name": "Launch LargestSpecialPrime",
+            "request": "launch",
+            "mainClass": "Numbers.LargestSpecialPrime",
+            "projectName": "practice problem"
+        },
+        {
+            "type": "java",
+            "name": "Launch Missing(1)",
+            "request": "launch",
+            "mainClass": "Numbers.Missing",
+            "projectName": "practice problem"
+        },
+        {
+            "type": "java",
+            "name": "Launch MixtureOfOddandEven",
+            "request": "launch",
+            "mainClass": "Numbers.MixtureOfOddandEven",
+            "projectName": "practice problem"
+        },
+        {
+            "type": "java",
+            "name": "Launch Nterm(1)",
+            "request": "launch",
+            "mainClass": "Numbers.Nterm",
+            "projectName": "practice problem"
+        },
+        {
+            "type": "java",
+            "name": "Launch NumberDivisionwithoutOperators",
+            "request": "launch",
+            "mainClass": "Numbers.NumberDivisionwithoutOperators",
+            "projectName": "practice problem"
+        },
+        {
+            "type": "java",
+            "name": "Launch NumberOfOccurences",
+            "request": "launch",
+            "mainClass": "Numbers.NumberOfOccurences",
+            "projectName": "practice problem"
+        },
+        {
+            "type": "java",
+            "name": "Launch NumbersInIcreasingOrder",
+            "request": "launch",
+            "mainClass": "Numbers.NumbersInIcreasingOrder",
+            "projectName": "practice problem"
+        },
+        {
+            "type": "java",
+            "name": "Launch OddPositionsSum",
+            "request": "launch",
+            "mainClass": "Numbers.OddPositionsSum",
+            "projectName": "practice problem"
+        },
+        {
+            "type": "java",
+            "name": "Launch ReverseMultiplicationtable",
+            "request": "launch",
+            "mainClass": "Numbers.ReverseMultiplicationtable",
+            "projectName": "practice problem"
+        },
+        {
+            "type": "java",
+            "name": "Launch SumOfPrime",
+            "request": "launch",
+            "mainClass": "Numbers.SumOfPrime",
+            "projectName": "practice problem"
+        },
+        {
+            "type": "java",
+            "name": "Launch SumUntilSingleDigit",
+            "request": "launch",
+            "mainClass": "Numbers.SumUntilSingleDigit",
+            "projectName": "practice problem"
+        },
+        {
+            "type": "java",
+            "name": "Launch TimeConversion",
+            "request": "launch",
+            "mainClass": "Numbers.TimeConversion",
+            "projectName": "practice problem"
+        },
+        {
+            "type": "java",
+            "name": "Launch checksumoffactequalton",
+            "request": "launch",
+            "mainClass": "Numbers.checksumoffactequalton",
+            "projectName": "practice problem"
+        },
+        {
+            "type": "java",
+            "name": "Launch countof1withinrange",
+            "request": "launch",
+            "mainClass": "Numbers.countof1withinrange",
+            "projectName": "practice problem"
+        },
+        {
+            "type": "java",
+            "name": "Launch divisors(1)",
+            "request": "launch",
+            "mainClass": "Numbers.divisors",
+            "projectName": "practice problem"
+        },
+        {
+            "type": "java",
+            "name": "Launch primewithinrange",
+            "request": "launch",
+            "mainClass": "Numbers.primewithinrange",
+            "projectName": "practice problem"
+        },
+        {
+            "type": "java",
+            "name": "Launch OddorEvenBitwise",
+            "request": "launch",
+            "mainClass": "OddorEvenBitwise",
+            "projectName": "practice problem"
+        },
+        {
+            "type": "java",
+            "name": "Launch Abstraction",
+            "request": "launch",
+            "mainClass": "Oops.Abstraction",
+            "projectName": "practice problem"
+        },
+        {
+            "type": "java",
+            "name": "Launch BirdInheritance",
+            "request": "launch",
+            "mainClass": "Oops.BirdInheritance",
+            "projectName": "practice problem"
+        },
+        {
+            "type": "java",
+            "name": "Launch Circle1",
+            "request": "launch",
+            "mainClass": "Oops.Circle1",
+            "projectName": "practice problem"
+        },
+        {
+            "type": "java",
+            "name": "Launch CompileTimePolymorphism",
+            "request": "launch",
+            "mainClass": "Oops.CompileTimePolymorphism",
+            "projectName": "practice problem"
+        },
+        {
+            "type": "java",
+            "name": "Launch Constructor",
+            "request": "launch",
+            "mainClass": "Oops.Constructor",
+            "projectName": "practice problem"
+        },
+        {
+            "type": "java",
+            "name": "Launch CopyConstructor",
+            "request": "launch",
+            "mainClass": "Oops.CopyConstructor",
+            "projectName": "practice problem"
+        },
+        {
+            "type": "java",
+            "name": "Launch Encapsulation",
+            "request": "launch",
+            "mainClass": "Oops.Encapsulation",
+            "projectName": "practice problem"
+        },
+        {
+            "type": "java",
+            "name": "Launch HierarchicalInheritance",
+            "request": "launch",
+            "mainClass": "Oops.HierarchicalInheritance",
+            "projectName": "practice problem"
+        },
+        {
+            "type": "java",
+            "name": "Launch Inheritanceexample",
+            "request": "launch",
+            "mainClass": "Oops.Inheritanceexample",
+            "projectName": "practice problem"
+        },
+        {
+            "type": "java",
+            "name": "Launch Invoiceque",
+            "request": "launch",
+            "mainClass": "Oops.Invoiceque",
+            "projectName": "practice problem"
+        },
+        {
+            "type": "java",
+            "name": "Launch Matrixadd",
+            "request": "launch",
+            "mainClass": "Oops.Matrixadd",
+            "projectName": "practice problem"
+        },
+        {
+            "type": "java",
+            "name": "Launch MethodOverriding",
+            "request": "launch",
+            "mainClass": "Oops.MethodOverriding",
+            "projectName": "practice problem"
+        },
+        {
+            "type": "java",
+            "name": "Launch MultiLevelInheritance",
+            "request": "launch",
+            "mainClass": "Oops.MultiLevelInheritance",
+            "projectName": "practice problem"
+        },
+        {
+            "type": "java",
+            "name": "Launch RunTimePolymorphism",
+            "request": "launch",
+            "mainClass": "Oops.RunTimePolymorphism",
+            "projectName": "practice problem"
+        },
+        {
+            "type": "java",
+            "name": "Launch SingleInheritance",
+            "request": "launch",
+            "mainClass": "Oops.SingleInheritance",
+            "projectName": "practice problem"
+        },
+        {
+            "type": "java",
+            "name": "Launch Superkey",
+            "request": "launch",
+            "mainClass": "Oops.Superkey",
+            "projectName": "practice problem"
+        },
+        {
+            "type": "java",
+            "name": "Launch Triangle",
+            "request": "launch",
+            "mainClass": "Oops.Triangle",
+            "projectName": "practice problem"
+        },
+        {
+            "type": "java",
+            "name": "Launch staticvariablemethods",
+            "request": "launch",
+            "mainClass": "Oops.staticvariablemethods",
+            "projectName": "practice problem"
+        },
+        {
+            "type": "java",
+            "name": "Launch Password",
+            "request": "launch",
+            "mainClass": "Password",
+            "projectName": "practice problem"
+        },
+        {
+            "type": "java",
+            "name": "Launch Fourquadrantpattern",
+            "request": "launch",
+            "mainClass": "Patterns.Fourquadrantpattern",
+            "projectName": "practice problem"
+        },
+        {
+            "type": "java",
+            "name": "Launch Fourteen16",
+            "request": "launch",
+            "mainClass": "Patterns.Fourteen16",
+            "projectName": "practice problem"
+        },
+        {
+            "type": "java",
+            "name": "Launch HarryPattern",
+            "request": "launch",
+            "mainClass": "Patterns.HarryPattern",
+            "projectName": "practice problem"
+        },
+        {
+            "type": "java",
+            "name": "Launch InnerSquarePattern",
+            "request": "launch",
+            "mainClass": "Patterns.InnerSquarePattern",
+            "projectName": "practice problem"
+        },
+        {
+            "type": "java",
+            "name": "Launch LessThan",
+            "request": "launch",
+            "mainClass": "Patterns.LessThan",
+            "projectName": "practice problem"
+        },
+        {
+            "type": "java",
+            "name": "Launch NumrepeatRec",
+            "request": "launch",
+            "mainClass": "Patterns.NumrepeatRec",
+            "projectName": "practice problem"
+        },
+        {
+            "type": "java",
+            "name": "Launch OnePattern",
+            "request": "launch",
+            "mainClass": "Patterns.OnePattern",
+            "projectName": "practice problem"
+        },
+        {
+            "type": "java",
+            "name": "Launch Pyramid",
+            "request": "launch",
+            "mainClass": "Patterns.Pyramid",
+            "projectName": "practice problem"
+        },
+        {
+            "type": "java",
+            "name": "Launch RightLowerTriangle",
+            "request": "launch",
+            "mainClass": "Patterns.RightLowerTriangle",
+            "projectName": "practice problem"
+        },
+        {
+            "type": "java",
+            "name": "Launch Xpattern",
+            "request": "launch",
+            "mainClass": "Patterns.Xpattern",
+            "projectName": "practice problem"
+        },
+        {
+            "type": "java",
+            "name": "Launch a2b4c",
+            "request": "launch",
+            "mainClass": "Patterns.a2b4c",
+            "projectName": "practice problem"
+        },
+        {
+            "type": "java",
+            "name": "Launch diagonalstarNumbers",
+            "request": "launch",
+            "mainClass": "Patterns.diagonalstarNumbers",
+            "projectName": "practice problem"
+        },
+        {
+            "type": "java",
+            "name": "Launch rightsumnum",
+            "request": "launch",
+            "mainClass": "Patterns.rightsumnum",
+            "projectName": "practice problem"
+        },
+        {
+            "type": "java",
+            "name": "Launch righttriangle1",
+            "request": "launch",
+            "mainClass": "Patterns.righttriangle1",
+            "projectName": "practice problem"
+        },
+        {
+            "type": "java",
+            "name": "Launch righttrianglenumreverse",
+            "request": "launch",
+            "mainClass": "Patterns.righttrianglenumreverse",
+            "projectName": "practice problem"
+        },
+        {
+            "type": "java",
+            "name": "Launch starDiagonally",
+            "request": "launch",
+            "mainClass": "Patterns.starDiagonally",
+            "projectName": "practice problem"
+        },
+        {
+            "type": "java",
+            "name": "Launch triangleupdown",
+            "request": "launch",
+            "mainClass": "Patterns.triangleupdown",
+            "projectName": "practice problem"
+        },
+        {
+            "type": "java",
+            "name": "Launch Phone",
+            "request": "launch",
+            "mainClass": "Phone",
+            "projectName": "practice problem"
+        },
+        {
+            "type": "java",
+            "name": "Launch PrimeInRange",
+            "request": "launch",
+            "mainClass": "PrimeInRange",
+            "projectName": "practice problem"
+        },
+        {
+            "type": "java",
+            "name": "Launch PrimeRange",
+            "request": "launch",
+            "mainClass": "PrimeRange",
+            "projectName": "practice problem"
+        },
+        {
+            "type": "java",
+            "name": "Launch ProductOfDigits",
+            "request": "launch",
+            "mainClass": "ProductOfDigits",
+            "projectName": "practice problem"
+        },
+        {
+            "type": "java",
+            "name": "Launch Q3",
+            "request": "launch",
+            "mainClass": "Q3",
+            "projectName": "practice problem"
+        },
+        {
+            "type": "java",
+            "name": "Launch ReadNLines",
+            "request": "launch",
+            "mainClass": "ReadNLines",
+            "projectName": "practice problem"
+        },
+        {
+            "type": "java",
+            "name": "Launch RepeatStringStar",
+            "request": "launch",
+            "mainClass": "RepeatStringStar",
+            "projectName": "practice problem"
+        },
+        {
+            "type": "java",
+            "name": "Launch Romantodecimal",
+            "request": "launch",
+            "mainClass": "Romantodecimal",
+            "projectName": "practice problem"
+        },
+        {
+            "type": "java",
+            "name": "Launch SecondaryDiagonal",
+            "request": "launch",
+            "mainClass": "SecondaryDiagonal",
+            "projectName": "practice problem"
+        },
+        {
+            "type": "java",
+            "name": "Launch Sortthedigits",
+            "request": "launch",
+            "mainClass": "Sortthedigits",
+            "projectName": "practice problem"
+        },
+        {
+            "type": "java",
+            "name": "Launch StartsVowelendsConstant",
+            "request": "launch",
+            "mainClass": "StartsVowelendsConstant",
+            "projectName": "practice problem"
+        },
+        {
+            "type": "java",
+            "name": "Launch String12",
+            "request": "launch",
+            "mainClass": "String12",
+            "projectName": "practice problem"
+        },
+        {
+            "type": "java",
+            "name": "Launch String13",
+            "request": "launch",
+            "mainClass": "String13",
+            "projectName": "practice problem"
+        },
+        {
+            "type": "java",
+            "name": "Launch String15",
+            "request": "launch",
+            "mainClass": "String15",
+            "projectName": "practice problem"
+        },
+        {
+            "type": "java",
+            "name": "Launch String16",
+            "request": "launch",
+            "mainClass": "String16",
+            "projectName": "practice problem"
+        },
+        {
+            "type": "java",
+            "name": "Launch String18",
+            "request": "launch",
+            "mainClass": "String18",
+            "projectName": "practice problem"
+        },
+        {
+            "type": "java",
+            "name": "Launch String21",
+            "request": "launch",
+            "mainClass": "String21",
+            "projectName": "practice problem"
+        },
+        {
+            "type": "java",
+            "name": "Launch String22",
+            "request": "launch",
+            "mainClass": "String22",
+            "projectName": "practice problem"
+        },
+        {
+            "type": "java",
+            "name": "Launch String23",
+            "request": "launch",
+            "mainClass": "String23",
+            "projectName": "practice problem"
+        },
+        {
+            "type": "java",
+            "name": "Launch String26",
+            "request": "launch",
+            "mainClass": "String26",
+            "projectName": "practice problem"
+        },
+        {
+            "type": "java",
+            "name": "Launch String27",
+            "request": "launch",
+            "mainClass": "String27",
+            "projectName": "practice problem"
+        },
+        {
+            "type": "java",
+            "name": "Launch String28",
+            "request": "launch",
+            "mainClass": "String28",
+            "projectName": "practice problem"
+        },
+        {
+            "type": "java",
+            "name": "Launch String29",
+            "request": "launch",
+            "mainClass": "String29",
+            "projectName": "practice problem"
+        },
+        {
+            "type": "java",
+            "name": "Launch String4",
+            "request": "launch",
+            "mainClass": "String4",
+            "projectName": "practice problem"
+        },
+        {
+            "type": "java",
+            "name": "Launch Stringgoodorbad",
+            "request": "launch",
+            "mainClass": "Stringgoodorbad",
+            "projectName": "practice problem"
+        },
+        {
+            "type": "java",
+            "name": "Launch Ajsnumornot",
+            "request": "launch",
+            "mainClass": "Strings.Ajsnumornot",
+            "projectName": "practice problem"
+        },
+        {
+            "type": "java",
+            "name": "Launch AlmostEquivalentStrings",
+            "request": "launch",
+            "mainClass": "Strings.AlmostEquivalentStrings",
+            "projectName": "practice problem"
+        },
+        {
+            "type": "java",
+            "name": "Launch Alternate",
+            "request": "launch",
+            "mainClass": "Strings.Alternate",
+            "projectName": "practice problem"
+        },
+        {
+            "type": "java",
+            "name": "Launch AlternatingCode",
+            "request": "launch",
+            "mainClass": "Strings.AlternatingCode",
+            "projectName": "practice problem"
+        },
+        {
+            "type": "java",
+            "name": "Launch Capitalize",
+            "request": "launch",
+            "mainClass": "Strings.Capitalize",
+            "projectName": "practice problem"
+        },
+        {
+            "type": "java",
+            "name": "Launch CharacterCountReverse",
+            "request": "launch",
+            "mainClass": "Strings.CharacterCountReverse",
+            "projectName": "practice problem"
+        },
+        {
+            "type": "java",
+            "name": "Launch CharacterCountbetweentwostrings",
+            "request": "launch",
+            "mainClass": "Strings.CharacterCountbetweentwostrings",
+            "projectName": "practice problem"
+        },
+        {
+            "type": "java",
+            "name": "Launch Charactercount",
+            "request": "launch",
+            "mainClass": "Strings.Charactercount",
+            "projectName": "practice problem"
+        },
+        {
+            "type": "java",
+            "name": "Launch CheckConsecutiveCharacters",
+            "request": "launch",
+            "mainClass": "Strings.CheckConsecutiveCharacters",
+            "projectName": "practice problem"
+        },
+        {
+            "type": "java",
+            "name": "Launch CountOfComman",
+            "request": "launch",
+            "mainClass": "Strings.CountOfComman",
+            "projectName": "practice problem"
+        },
+        {
+            "type": "java",
+            "name": "Launch CountUppercaseLowercase",
+            "request": "launch",
+            "mainClass": "Strings.CountUppercaseLowercase",
+            "projectName": "practice problem"
+        },
+        {
+            "type": "java",
+            "name": "Launch Date1",
+            "request": "launch",
+            "mainClass": "Strings.Date1",
+            "projectName": "practice problem"
+        },
+        {
+            "type": "java",
+            "name": "Launch Encoding",
+            "request": "launch",
+            "mainClass": "Strings.Encoding",
+            "projectName": "practice problem"
+        },
+        {
+            "type": "java",
+            "name": "Launch Extraspaces",
+            "request": "launch",
+            "mainClass": "Strings.Extraspaces",
+            "projectName": "practice problem"
+        },
+        {
+            "type": "java",
+            "name": "Launch FrequencyforparticularCharacter",
+            "request": "launch",
+            "mainClass": "Strings.FrequencyforparticularCharacter",
+            "projectName": "practice problem"
+        },
+        {
+            "type": "java",
+            "name": "Launch Halindrome",
+            "request": "launch",
+            "mainClass": "Strings.Halindrome",
+            "projectName": "practice problem"
+        },
+        {
+            "type": "java",
+            "name": "Launch HammingDistance",
+            "request": "launch",
+            "mainClass": "Strings.HammingDistance",
+            "projectName": "practice problem"
+        },
+        {
+            "type": "java",
+            "name": "Launch JoinString",
+            "request": "launch",
+            "mainClass": "Strings.JoinString",
+            "projectName": "practice problem"
+        },
+        {
+            "type": "java",
+            "name": "Launch LexiString",
+            "request": "launch",
+            "mainClass": "Strings.LexiString",
+            "projectName": "practice problem"
+        },
+        {
+            "type": "java",
+            "name": "Launch MergeString",
+            "request": "launch",
+            "mainClass": "Strings.MergeString",
+            "projectName": "practice problem"
+        },
+        {
+            "type": "java",
+            "name": "Launch MostUnique",
+            "request": "launch",
+            "mainClass": "Strings.MostUnique",
+            "projectName": "practice problem"
+        },
+        {
+            "type": "java",
+            "name": "Launch MyRegex",
+            "request": "launch",
+            "mainClass": "Strings.MyRegex",
+            "projectName": "practice problem"
+        },
+        {
+            "type": "java",
+            "name": "Launch Name",
+            "request": "launch",
+            "mainClass": "Strings.Name",
+            "projectName": "practice problem"
+        },
+        {
+            "type": "java",
+            "name": "Launch PalindromePresentInALineOrNot",
+            "request": "launch",
+            "mainClass": "Strings.PalindromePresentInALineOrNot",
+            "projectName": "practice problem"
+        },
+        {
+            "type": "java",
+            "name": "Launch PalindromicWordInserting",
+            "request": "launch",
+            "mainClass": "Strings.PalindromicWordInserting",
+            "projectName": "practice problem"
+        },
+        {
+            "type": "java",
+            "name": "Launch Password(1)",
+            "request": "launch",
+            "mainClass": "Strings.Password",
+            "projectName": "practice problem"
+        },
+        {
+            "type": "java",
+            "name": "Launch RemoveCharacterstoMakeStringPalindrome",
+            "request": "launch",
+            "mainClass": "Strings.RemoveCharacterstoMakeStringPalindrome",
+            "projectName": "practice problem"
+        },
+        {
+            "type": "java",
+            "name": "Launch RemoveSpecialCharacters",
+            "request": "launch",
+            "mainClass": "Strings.RemoveSpecialCharacters",
+            "projectName": "practice problem"
+        },
+        {
+            "type": "java",
+            "name": "Launch ReverseIndividualWords",
+            "request": "launch",
+            "mainClass": "Strings.ReverseIndividualWords",
+            "projectName": "practice problem"
+        },
+        {
+            "type": "java",
+            "name": "Launch ReverseStringPresevingSpace",
+            "request": "launch",
+            "mainClass": "Strings.ReverseStringPresevingSpace",
+            "projectName": "practice problem"
+        },
+        {
+            "type": "java",
+            "name": "Launch ReverseStringRetainingSpace",
+            "request": "launch",
+            "mainClass": "Strings.ReverseStringRetainingSpace",
+            "projectName": "practice problem"
+        },
+        {
+            "type": "java",
+            "name": "Launch ReverseStringretainingNumbers",
+            "request": "launch",
+            "mainClass": "Strings.ReverseStringretainingNumbers",
+            "projectName": "practice problem"
+        },
+        {
+            "type": "java",
+            "name": "Launch ReverseStringwithoutInbuilt",
+            "request": "launch",
+            "mainClass": "Strings.ReverseStringwithoutInbuilt",
+            "projectName": "practice problem"
+        },
+        {
+            "type": "java",
+            "name": "Launch SecondmostFreq",
+            "request": "launch",
+            "mainClass": "Strings.SecondmostFreq",
+            "projectName": "practice problem"
+        },
+        {
+            "type": "java",
+            "name": "Launch ShiftingStrings",
+            "request": "launch",
+            "mainClass": "Strings.ShiftingStrings",
+            "projectName": "practice problem"
+        },
+        {
+            "type": "java",
+            "name": "Launch SimilarChar",
+            "request": "launch",
+            "mainClass": "Strings.SimilarChar",
+            "projectName": "practice problem"
+        },
+        {
+            "type": "java",
+            "name": "Launch SortTheStringbasedonFrequency",
+            "request": "launch",
+            "mainClass": "Strings.SortTheStringbasedonFrequency",
+            "projectName": "practice problem"
+        },
+        {
+            "type": "java",
+            "name": "Launch StockPrice",
+            "request": "launch",
+            "mainClass": "Strings.StockPrice",
+            "projectName": "practice problem"
+        },
+        {
+            "type": "java",
+            "name": "Launch StringConv",
+            "request": "launch",
+            "mainClass": "Strings.StringConv",
+            "projectName": "practice problem"
+        },
+        {
+            "type": "java",
+            "name": "Launch StringPalindrome",
+            "request": "launch",
+            "mainClass": "Strings.StringPalindrome",
+            "projectName": "practice problem"
+        },
+        {
+            "type": "java",
+            "name": "Launch StringRotation",
+            "request": "launch",
+            "mainClass": "Strings.StringRotation",
+            "projectName": "practice problem"
+        },
+        {
+            "type": "java",
+            "name": "Launch Stringrevspace",
+            "request": "launch",
+            "mainClass": "Strings.Stringrevspace",
+            "projectName": "practice problem"
+        },
+        {
+            "type": "java",
+            "name": "Launch Substringornot",
+            "request": "launch",
+            "mainClass": "Strings.Substringornot",
+            "projectName": "practice problem"
+        },
+        {
+            "type": "java",
+            "name": "Launch TwinStrings",
+            "request": "launch",
+            "mainClass": "Strings.TwinStrings",
+            "projectName": "practice problem"
+        },
+        {
+            "type": "java",
+            "name": "Launch a1b2withoutinbuilt",
+            "request": "launch",
+            "mainClass": "Strings.a1b2withoutinbuilt",
+            "projectName": "practice problem"
+        },
+        {
+            "type": "java",
+            "name": "Launch bag",
+            "request": "launch",
+            "mainClass": "Strings.bag",
+            "projectName": "practice problem"
+        },
+        {
+            "type": "java",
+            "name": "Launch distanceString",
+            "request": "launch",
+            "mainClass": "Strings.distanceString",
+            "projectName": "practice problem"
+        },
+        {
+            "type": "java",
+            "name": "Launch duplicateElement",
+            "request": "launch",
+            "mainClass": "Strings.duplicateElement",
+            "projectName": "practice problem"
+        },
+        {
+            "type": "java",
+            "name": "Launch longestword",
+            "request": "launch",
+            "mainClass": "Strings.longestword",
+            "projectName": "practice problem"
+        },
+        {
+            "type": "java",
+            "name": "Launch oddevepositioncharacter",
+            "request": "launch",
+            "mainClass": "Strings.oddevepositioncharacter",
+            "projectName": "practice problem"
+        },
+        {
+            "type": "java",
+            "name": "Launch twoStringsareequal",
+            "request": "launch",
+            "mainClass": "Strings.twoStringsareequal",
+            "projectName": "practice problem"
+        },
+        {
+            "type": "java",
+            "name": "Launch zohostring",
+            "request": "launch",
+            "mainClass": "Strings.zohostring",
+            "projectName": "practice problem"
+        },
+        {
+            "type": "java",
+            "name": "Launch SubArray",
+            "request": "launch",
+            "mainClass": "SubArray",
+            "projectName": "practice problem"
+        },
+        {
+            "type": "java",
+            "name": "Launch Subset",
+            "request": "launch",
+            "mainClass": "Subset",
+            "projectName": "practice problem"
+        },
+        {
+            "type": "java",
+            "name": "Launch Substring",
+            "request": "launch",
+            "mainClass": "Substring",
+            "projectName": "practice problem"
+        },
+        {
+            "type": "java",
+            "name": "Launch SumOfEvenNumbersInAnArray",
+            "request": "launch",
+            "mainClass": "SumOfEvenNumbersInAnArray",
+            "projectName": "practice problem"
+        },
+        {
+            "type": "java",
+            "name": "Launch SumRight",
+            "request": "launch",
+            "mainClass": "SumRight",
+            "projectName": "practice problem"
+        },
+        {
+            "type": "java",
+            "name": "Launch Sumofnondiagonal",
+            "request": "launch",
+            "mainClass": "Sumofnondiagonal",
+            "projectName": "practice problem"
+        },
+        {
+            "type": "java",
+            "name": "Launch SwapFirstAndLastWithoutArray",
+            "request": "launch",
+            "mainClass": "SwapFirstAndLastWithoutArray",
+            "projectName": "practice problem"
+        },
+        {
+            "type": "java",
+            "name": "Launch SwapFirstLastCharacterofWord",
+            "request": "launch",
+            "mainClass": "SwapFirstLastCharacterofWord",
+            "projectName": "practice problem"
+        },
+        {
+            "type": "java",
+            "name": "Launch SwapPosition",
+            "request": "launch",
+            "mainClass": "SwapPosition",
+            "projectName": "practice problem"
+        },
+        {
+            "type": "java",
+            "name": "Launch SwapfirstLast",
+            "request": "launch",
+            "mainClass": "SwapfirstLast",
+            "projectName": "practice problem"
+        },
+        {
+            "type": "java",
+            "name": "Launch TelephoneProblem",
+            "request": "launch",
+            "mainClass": "TelephoneProblem",
+            "projectName": "practice problem"
+        },
+        {
+            "type": "java",
+            "name": "Launch Totalsumadd",
+            "request": "launch",
+            "mainClass": "Totalsumadd",
+            "projectName": "practice problem"
+        },
+        {
+            "type": "java",
+            "name": "Launch Transverse",
+            "request": "launch",
+            "mainClass": "Transverse",
+            "projectName": "practice problem"
+        },
+        {
+            "type": "java",
+            "name": "Launch EntireRowColtoZero",
+            "request": "launch",
+            "mainClass": "TwoDArrays.EntireRowColtoZero",
+            "projectName": "practice problem"
+        },
+        {
+            "type": "java",
+            "name": "Launch IpatternSum",
+            "request": "launch",
+            "mainClass": "TwoDArrays.IpatternSum",
+            "projectName": "practice problem"
+        },
+        {
+            "type": "java",
+            "name": "Launch Spiral2",
+            "request": "launch",
+            "mainClass": "TwoDArrays.Spiral2",
+            "projectName": "practice problem"
+        },
+        {
+            "type": "java",
+            "name": "Launch SpiralAntiClockwise",
+            "request": "launch",
+            "mainClass": "TwoDArrays.SpiralAntiClockwise",
+            "projectName": "practice problem"
+        },
+        {
+            "type": "java",
+            "name": "Launch SpiralClockwise",
+            "request": "launch",
+            "mainClass": "TwoDArrays.SpiralClockwise",
+            "projectName": "practice problem"
+        },
+        {
+            "type": "java",
+            "name": "Launch SpiralClockwise2",
+            "request": "launch",
+            "mainClass": "TwoDArrays.SpiralClockwise2",
+            "projectName": "practice problem"
+        },
+        {
+            "type": "java",
+            "name": "Launch SpiralMatrix",
+            "request": "launch",
+            "mainClass": "TwoDArrays.SpiralMatrix",
+            "projectName": "practice problem"
+        },
+        {
+            "type": "java",
+            "name": "Launch wordPresentinOrder",
+            "request": "launch",
+            "mainClass": "TwoDArrays.wordPresentinOrder",
+            "projectName": "practice problem"
+        },
+        {
+            "type": "java",
+            "name": "Launch UpperTriangle",
+            "request": "launch",
+            "mainClass": "UpperTriangle",
+            "projectName": "practice problem"
+        },
+        {
+            "type": "java",
+            "name": "Launch ValidStringorNot",
+            "request": "launch",
+            "mainClass": "ValidStringorNot",
+            "projectName": "practice problem"
+        },
+        {
+            "type": "java",
+            "name": "Launch Vowelcapital",
+            "request": "launch",
+            "mainClass": "Vowelcapital",
+            "projectName": "practice problem"
+        },
+        {
+            "type": "java",
+            "name": "Launch WordsinAscending",
+            "request": "launch",
+            "mainClass": "WordsinAscending",
+            "projectName": "practice problem"
+        },
+        {
+            "type": "java",
+            "name": "Launch Permutation",
+            "request": "launch",
+            "mainClass": "Zoho_Interview_questions.Permutation",
+            "projectName": "practice problem"
+        },
+        {
+            "type": "java",
+            "name": "Launch divisors(2)",
+            "request": "launch",
+            "mainClass": "divisors",
+            "projectName": "practice problem"
+        },
+        {
+            "type": "java",
+            "name": "Launch pattern1",
+            "request": "launch",
+            "mainClass": "pattern1",
+            "projectName": "practice problem"
+        },
+        {
+            "type": "java",
+            "name": "Launch perfect",
+            "request": "launch",
+            "mainClass": "perfect",
+            "projectName": "practice problem"
+        },
+        {
+            "type": "java",
+            "name": "Launch q2",
+            "request": "launch",
+            "mainClass": "q2",
+            "projectName": "practice problem"
+        },
+        {
+            "type": "java",
+            "name": "Launch Reverse",
+            "request": "launch",
+            "mainClass": "reverse.Reverse",
+            "projectName": "practice problem"
+        },
+        {
+            "type": "java",
+            "name": "Launch swap0and1",
+            "request": "launch",
+            "mainClass": "swap0and1",
+            "projectName": "practice problem"
+        },
+        {
+            "type": "java",
+            "name": "Launch swapfirstsecondhalf",
+            "request": "launch",
+            "mainClass": "swapfirstsecondhalf",
+            "projectName": "practice problem"
+        }
+    ]
+}
