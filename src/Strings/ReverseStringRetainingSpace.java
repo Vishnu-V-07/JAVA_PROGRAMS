@@ -19,6 +19,7 @@ public class ReverseStringRetainingSpace {
 				c2[i]=' ';
 			}
 		}
+		
 		int j=c2.length-1;
 		for(int i=0;i<c1.length;i++)
 		{

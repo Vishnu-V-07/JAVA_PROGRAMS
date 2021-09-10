@@ -23,7 +23,7 @@
 // Sample Input
 
 // 5 4
-// 1 2 3 4 5
+// 1 2 3 4 5=>    1=> 2 3 4 5 1 ,2=> 3 4 5 1 2, 3=>4 5 1 2 3, 4=> 5 1 2 3 4
 // Sample Output
 
 // 5 1 2 3 4
@@ -38,7 +38,7 @@ public class ArrayRotation {
     public static void main(String args[])
     {
     Scanner sc=new Scanner(System.in);
-    // Complete the rotLeft function below.
+   
         int n1=sc.nextInt();
         int d=sc.nextInt();
         int a[]=new int[n1];
@@ -67,37 +67,5 @@ public class ArrayRotation {
     }
 }
 
-//Another method:
-// int arr[]=new int[a.length];
-    // int dup=0;
-    // for(int i=0;i<d;i++)
-    // {
-       
-    //     if(i==0){
-    //     int k=0;
-    //     for(int j=1;j<a.length;j++)
-    //     {
-    //         arr[k]=a[j];
-    //         k++;
-    //     }
-    //     arr[a.length-1]=a[0];
-    //      System.out.println(Arrays.toString(arr));
-    //     }
-    //     else{
-    //         int k=0;
-    //         dup=arr[0];
-    //     for(int j=1;j<a.length;j++)
-    //     {
-    //         arr[k]=arr[j];
-    //         k++;
-    //     }
-    //     arr[a.length-1]=dup;
-    //      System.out.println(Arrays.toString(arr));
-    //     }
-        
-    // }
-    
-    // return arr;
-    
 
 

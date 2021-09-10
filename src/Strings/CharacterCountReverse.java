@@ -14,7 +14,7 @@ public class CharacterCountReverse {
            {
         	   if(Character.isDigit(s1.charAt(i)))
         	   {
-        		   iCount=Integer.parseInt(String.valueOf(s1.charAt(i)));
+        		   iCount=Integer.parseInt(String.valueOf(s1.charAt(i)));//2
         		   int num=0;
         		   while(num<iCount)
         		   {

@@ -52,6 +52,11 @@ public class DiffrenceOfIndicesoflargestandSmallest {
 
 // 5
 // 1 6 4 0 3
+// largest element =6, index=1
+// small element is=0 index=3
+
+//diff=1-3;
+
 
 
 // O/P:

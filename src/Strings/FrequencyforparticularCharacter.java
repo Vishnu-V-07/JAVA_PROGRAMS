@@ -18,7 +18,7 @@ class FrequencyforparticularCharacter{
 
         }
         int a=Collections.frequency(al,c);
-        System.out.println(a);
+        System.out.println(a);//3
     }
 }
 

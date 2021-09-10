@@ -1,16 +1,17 @@
 package Arrays;
 import java.util.*;
-public class Unique {
+public class NotUnique {
     public static void main(String args[])
     {
         Scanner sc=new Scanner(System.in);
-        int iNum=sc.nextInt();
+        int iNum=sc.nextInt();//7
         ArrayList<Integer> al=new ArrayList<Integer>();
         ArrayList<Integer> al2=new ArrayList<Integer>();
 
         for(int i=0;i<iNum;i++)
         {
            al.add(sc.nextInt());
+           
         }
         for(int i=0;i<iNum;i++)
         {

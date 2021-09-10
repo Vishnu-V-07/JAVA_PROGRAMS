@@ -37,6 +37,7 @@ public class PalindromePresentInALineOrNot {
 	}
 }
 
-// I want malayalm movie
+// I want malayalam movie
 
 // Present
+

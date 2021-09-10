@@ -1,8 +1,9 @@
 // 1
 // 2
 // ABCDE
-// Left Shift
-// BCDEA
+// Left Shift //1 LEFT SHIFT BCDEA 
+// BCDEA //1  right shift ABCDE
+         //2  RIGHT SHIFT EABCD
 // Right Shift
 // EABCD
 package Strings;
@@ -21,7 +22,7 @@ public class ShiftingStrings {
     {
         String s4="";
         System.out.println("Right Shift");
-       s4=s2.substring(s2.length()-iR)+s2.substring(0,s2.length()-iR);
+       s4=s2.substring(s2.length()-iR)+s2.substring(0,s2.length()-iR); 
         System.out.println(s4);
 
     }
@@ -31,7 +32,7 @@ public class ShiftingStrings {
         int iL=sc.nextInt();
         int iR=sc.nextInt();
         String s1=sc.next();
-       // String s2=s1;
+      
         String s2=leftRotate(s1,iL);
         RightRotate(s2,iR);
     }

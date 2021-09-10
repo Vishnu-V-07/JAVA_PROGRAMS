@@ -4,8 +4,69 @@
     // For more information, visit: https://go.microsoft.com/fwlink/?linkid=830387
     "version": "0.2.0",
     "configurations": [
-        
-
+        {
+            "type": "java",
+            "name": "Launch NeonNumber",
+            "request": "launch",
+            "mainClass": "Numbers.NeonNumber",
+            "projectName": "practice problem"
+        },
+        {
+            "type": "java",
+            "name": "Launch NotUnique",
+            "request": "launch",
+            "mainClass": "Arrays.NotUnique",
+            "projectName": "practice problem"
+        },
+        {
+            "type": "java",
+            "name": "Launch MergeSort",
+            "request": "launch",
+            "mainClass": "Arrays.MergeSort",
+            "projectName": "practice problem"
+        },
+        {
+            "type": "java",
+            "name": "Launch MergeSortarray",
+            "request": "launch",
+            "mainClass": "Arrays.MergeSortarray",
+            "projectName": "practice problem"
+        },
+        {
+            "type": "java",
+            "name": "Launch Dhoni",
+            "request": "launch",
+            "mainClass": "Arrays.Dhoni",
+            "projectName": "practice problem"
+        },
+        {
+            "type": "java",
+            "name": "Launch primeCheck",
+            "request": "launch",
+            "mainClass": "Arrays.primeCheck",
+            "projectName": "practice problem"
+        },
+        {
+            "type": "java",
+            "name": "Launch DuplicateCharacterInAString",
+            "request": "launch",
+            "mainClass": "Strings.DuplicateCharacterInAString",
+            "projectName": "practice problem"
+        },
+        {
+            "type": "java",
+            "name": "Launch StringArrayWordReverse",
+            "request": "launch",
+            "mainClass": "Strings.StringArrayWordReverse",
+            "projectName": "practice problem"
+        },
+        {
+            "type": "java",
+            "name": "Launch AdjacentPairSum",
+            "request": "launch",
+            "mainClass": "Arrays.AdjacentPairSum",
+            "projectName": "practice problem"
+        },
         {
             "type": "java",
             "name": "Launch Current File",

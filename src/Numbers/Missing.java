@@ -1,4 +1,4 @@
-// GIVEN AN ARRAYC OF SIZE N-1 AND GIVEN THAT THERE ARE NUMBERS
+// GIVEN AN ARRAY OF SIZE N-1 AND GIVEN THAT THERE ARE NUMBERS
 // FROM 1 TO N WITH ONE ELEMENT MISSING,THE MISSING NUMBER 
 // IS TO FOUND
 
@@ -21,6 +21,7 @@ public class Missing {
             arr[i]=sc.nextInt();
         }
         Arrays.sort(arr);
+    
         int k=1;
         for(int i=0;i<n;i++)
         {

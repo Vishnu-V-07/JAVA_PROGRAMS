@@ -32,3 +32,11 @@ public class OddEvenReplace {
         Replace(iArr,iNum);
     }
 }
+
+// Write a program to print the odd numbers in the array and replace even numbers by -1
+// I/P:
+// 5
+// 1 2 3 4 5
+
+// O/P:
+// [1, 3, 5, -1, -1]

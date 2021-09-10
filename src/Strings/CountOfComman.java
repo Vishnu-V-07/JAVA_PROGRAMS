@@ -21,7 +21,7 @@ public class CountOfComman{
             }
             }
             }
-      //  }
+      
         System.out.println(count);
     }
 }

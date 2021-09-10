@@ -26,3 +26,11 @@ public class ProductOfArray {
         System.out.println(Arrays.toString(arr2));
     }
 }
+
+// i/p
+
+// 5
+// 1 2 3 4 5
+
+// o/p:
+// [120, 60, 40, 30, 24]

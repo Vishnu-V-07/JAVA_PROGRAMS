@@ -26,7 +26,7 @@ public class SumUntilSingleDigit {
             {
                 b=iNum%10;
                 sum+=b;
-               // System.out.println(sum);
+              
                 iNum/=10;
             }
            iNum=sum;
@@ -34,7 +34,11 @@ public class SumUntilSingleDigit {
         
            
         }
-        System.out.print(sum);
+        System.out.print(sum);//1
     }
     
 }
+
+
+// 456=>4+5+6=15
+// 15=>1+5=6

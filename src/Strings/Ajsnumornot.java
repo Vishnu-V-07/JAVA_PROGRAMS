@@ -6,7 +6,9 @@ public class Ajsnumornot {
         String s1=Integer.toString(iNum);
         int  a=Integer.parseInt(String.valueOf(s1.charAt(0)))+Integer.parseInt(String.valueOf(s1.charAt(1)));
         String s2=Integer.toString(a);
-        String s3=s1.substring(3,s1.length());
+
+        String s3=s1.substring(2,s1.length());
+  
         if(s2.contains(s3))
         {
             System.out.println("1");
