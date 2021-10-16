@@ -1,11 +1,12 @@
 // BRILLIANT BINGO
 
-// Given a number in each round of the game the players have to multiply their number with the round number.
+// Given a number in each round of the game the players have to multiply their number
+// with the round number.
 // The game stops when a player gets all the numbers from 0 to 9 and its a brilliant game bingo.
 
 // I/P:
-// 7892
-
+// 7892*1 => 7 8 9 2=7892*2=1 5 7 8 4=7892*3= 2 3 6 7 6=7892*4= 3 1 5 6 8=7892*5= 3 9 4 6 0
+// 0 1 2 3 4 5 6 7 8 9
 // O/P:
 // 5
 
@@ -40,8 +41,8 @@ public class BrilliantBingo {
     public static void main(String args[])
     {
         Scanner sc=new Scanner(System.in);
-        int iNum=sc.nextInt();
-        Bingo(iNum);
+        int iNum=sc.nextInt();//7892
+        Bingo(iNum);//7892
     }
     
 }

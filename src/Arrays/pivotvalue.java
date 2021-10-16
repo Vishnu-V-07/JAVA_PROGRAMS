@@ -11,7 +11,7 @@
 // 10
 
 // O/P:
-// 9 5 3 10 10 14 12
+// 3 5 9 10 10 12 14
 
 package Arrays;
 import java.util.*;
@@ -34,7 +34,7 @@ public class pivotvalue {
         {
             if(arr[i]<pivot)
             {
-               a1[first]=arr[i];
+               a1[first]=arr[i];   
                first++;
             }
             else if(arr[i]==pivot)
@@ -49,7 +49,7 @@ public class pivotvalue {
         }
         Arrays.sort(a1,0,first);
         Arrays.sort(a3,0,third);
-        for(int i=first-1;i>=0;i--)
+        for(int i=0;i<first;i++)
         {
             System.out.print(a1[i]+" ");
         }
@@ -57,7 +57,7 @@ public class pivotvalue {
         {
             System.out.print(a2[i]+" ");
         }
-        for(int i=third-1;i>=0;i--)
+        for(int i=0;i<third;i++)
         {
             System.out.print(a3[i]+" ");
         }

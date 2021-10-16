@@ -12,6 +12,7 @@ public class Nterm {
         for(int i=0;i<n;i++)
         {
             l+=l;
+            
         
         }
         System.out.print(l);

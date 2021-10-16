@@ -1,7 +1,7 @@
 package Numbers;
 import java.util.*;
 public class NumberDivisionwithoutOperators {
-    public static void Divide(int a,int b)
+    public static void Divide(int a,int b)//64 8
     {
         int c=0;
         int d=0;

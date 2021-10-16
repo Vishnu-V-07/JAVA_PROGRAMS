@@ -15,10 +15,19 @@ public class Union {
         {
             ts.add(sc.nextInt());
         }
+        System.out.println(ts);
         System.out.println(ts.size());
     }
     
 }
+
+
+// 5
+// 3
+// 1 2 3 4 5
+// 7 8 3
+// [1, 2, 3, 4, 5, 7, 8]
+// 7
 
 // 6 2
 // 85 25 1 32 54 6

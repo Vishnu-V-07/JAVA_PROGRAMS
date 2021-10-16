@@ -2,7 +2,7 @@ import java.util.*;
 public class DecimalToRoman {
 
 	public static void main(String[] args) {
-		// TODO Auto-generated method stub
+		
 		Scanner sc=new Scanner(System.in);
 		int iNum=sc.nextInt();
 		String s3="";
@@ -39,3 +39,10 @@ public class DecimalToRoman {
 	}
 
 }
+
+
+// 24
+// XXIV
+
+// 36
+// XXXVI

@@ -20,6 +20,7 @@ public class NextGreatest {
                 {
                     a=arr[j];
                     arr[i]=a;
+                    
                   
                 }
             }
@@ -28,3 +29,10 @@ public class NextGreatest {
         System.out.println(Arrays.toString(arr));
     }
 }
+
+
+// 5
+// 2 1 4 3 2
+
+//O/p:
+// [4, 4, 4, 3, -1]

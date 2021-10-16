@@ -6,6 +6,153 @@
     "configurations": [
         {
             "type": "java",
+            "name": "Launch forloop",
+            "request": "launch",
+            "mainClass": "Basics.forloop",
+            "projectName": "practice problem"
+        },
+        {
+            "type": "java",
+            "name": "Launch Switch",
+            "request": "launch",
+            "mainClass": "Basics.Switch",
+            "projectName": "practice problem"
+        },
+        {
+            "type": "java",
+            "name": "Launch elseif",
+            "request": "launch",
+            "mainClass": "Basics.elseif",
+            "projectName": "practice problem"
+        },
+        {
+            "type": "java",
+            "name": "Launch ifelse",
+            "request": "launch",
+            "mainClass": "Basics.ifelse",
+            "projectName": "practice problem"
+        },
+        {
+            "type": "java",
+            "name": "Launch TernaryOperator",
+            "request": "launch",
+            "mainClass": "Basics.TernaryOperator",
+            "projectName": "practice problem"
+        },
+        {
+            "type": "java",
+            "name": "Launch InstanceOfOperator",
+            "request": "launch",
+            "mainClass": "Basics.InstanceOfOperator",
+            "projectName": "practice problem"
+        },
+        {
+            "type": "java",
+            "name": "Launch RightShiftOperator",
+            "request": "launch",
+            "mainClass": "Basics.RightShiftOperator",
+            "projectName": "practice problem"
+        },
+        {
+            "type": "java",
+            "name": "Launch LeftShiftOperator",
+            "request": "launch",
+            "mainClass": "Basics.LeftShiftOperator",
+            "projectName": "practice problem"
+        },
+        {
+            "type": "java",
+            "name": "Launch BitwiseComplement",
+            "request": "launch",
+            "mainClass": "Basics.BitwiseComplement",
+            "projectName": "practice problem"
+        },
+        {
+            "type": "java",
+            "name": "Launch BitwiseOperator_XOR",
+            "request": "launch",
+            "mainClass": "Basics.BitwiseOperator_XOR",
+            "projectName": "practice problem"
+        },
+        {
+            "type": "java",
+            "name": "Launch BitwiseOperators_AND_",
+            "request": "launch",
+            "mainClass": "Basics.BitwiseOperators_AND_",
+            "projectName": "practice problem"
+        },
+        {
+            "type": "java",
+            "name": "Launch BitwiseOperators_OR_",
+            "request": "launch",
+            "mainClass": "Basics.BitwiseOperators_OR_",
+            "projectName": "practice problem"
+        },
+        {
+            "type": "java",
+            "name": "Launch IncDec_Operators",
+            "request": "launch",
+            "mainClass": "Basics.IncDec_Operators",
+            "projectName": "practice problem"
+        },
+        {
+            "type": "java",
+            "name": "Launch LogicalOperators",
+            "request": "launch",
+            "mainClass": "Basics.LogicalOperators",
+            "projectName": "practice problem"
+        },
+        {
+            "type": "java",
+            "name": "Launch RelationalOperators",
+            "request": "launch",
+            "mainClass": "Basics.RelationalOperators",
+            "projectName": "practice problem"
+        },
+        {
+            "type": "java",
+            "name": "Launch AssignmentOperators",
+            "request": "launch",
+            "mainClass": "Basics.AssignmentOperators",
+            "projectName": "practice problem"
+        },
+        {
+            "type": "java",
+            "name": "Launch abc123",
+            "request": "launch",
+            "mainClass": "Patterns.abc123",
+            "projectName": "practice problem"
+        },
+        {
+            "type": "java",
+            "name": "Launch ArithmeticOperators",
+            "request": "launch",
+            "mainClass": "Basics.ArithmeticOperators",
+            "projectName": "practice problem"
+        },
+        {
+            "type": "java",
+            "name": "Launch InputFromUser",
+            "request": "launch",
+            "mainClass": "Basics.InputFromUser",
+            "projectName": "practice problem"
+        },
+        {
+            "type": "java",
+            "name": "Launch DataTypes",
+            "request": "launch",
+            "mainClass": "Basics.DataTypes",
+            "projectName": "practice problem"
+        },
+        {
+            "type": "java",
+            "name": "Launch HelloWorld",
+            "request": "launch",
+            "mainClass": "Basics.HelloWorld",
+            "projectName": "practice problem"
+        },
+        {
+            "type": "java",
             "name": "Launch NeonNumber",
             "request": "launch",
             "mainClass": "Numbers.NeonNumber",

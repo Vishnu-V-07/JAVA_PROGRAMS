@@ -11,10 +11,12 @@ public class Extraelement {
         for(int i=0;i<iNum;i++)
         {
             arr[i]=sc.nextInt();
+            
         }
         for(int j=0;j<iNum2;j++)
         {
             arr2[j]=sc.nextInt();
+           
         }
         int a=0;
       
@@ -23,6 +25,8 @@ public class Extraelement {
         for(int i=0;i<iNum2;i++)
         {
            al.add(arr2[i]);
+           
+          
         }
         for(int i=0;i<iNum;i++)
         {
@@ -36,7 +40,8 @@ public class Extraelement {
         {
             if(a==arr[i])
             {
-                System.out.println(i);
+                System.out.println("The extra element is "+a);
+                System.out.println("Its index is "+i);
             }
         }
     
@@ -50,4 +55,5 @@ public class Extraelement {
 // 2 4 6 8 9 10 12
 // 2 4 6 8 10 12
 
+//9
 // 4

@@ -17,7 +17,7 @@ public class RepeatStringStar {
 					count++;
 				}
 			}
-			if(count==1)
+			if(count>=1)
 			{
 				System.out.print(c1[i]+"*");
 			}

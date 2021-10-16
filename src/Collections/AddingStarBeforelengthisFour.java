@@ -4,7 +4,7 @@ public class AddingStarBeforelengthisFour {
     public static void AddingStar(ArrayList<String> al,int iNum)
     {
         String temp="";
-        //ArrayList<String> al2=new ArrayList<>();
+       
         Scanner sc=new Scanner(System.in);
          for(int i=0;i<iNum;i++)
          {

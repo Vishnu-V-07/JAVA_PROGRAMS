@@ -20,10 +20,17 @@ public class Kposition {
     		   
     	   }
        }
-       if(iCount==0)
+       if(iCount==0)//1!=0
        {
     	   System.out.println("element is not found");
        }
 	}
 
 }
+
+
+// 5
+// 7 8 11 12 3
+// 11
+// 3
+

@@ -11,6 +11,7 @@ public class OddPositionsSum {
             if(Integer.parseInt(String.valueOf(s1.charAt(i)))%2!=0)
             {
                 sum+=Integer.parseInt(String.valueOf(s1.charAt(i)));
+                System.out.println(sum);
             }
         }
         System.out.println(sum);

@@ -2,7 +2,7 @@ import java.util.*;
 public class perfect {
 
 	public static void main(String[] args) {
-		// TODO Auto-generated method stub
+	
 		Scanner sc=new Scanner(System.in);
 		int iNum=sc.nextInt();
 		int sum=0;
@@ -25,3 +25,9 @@ public class perfect {
 	}
 
 }
+
+
+// 6
+
+//2 3 1=>2 + 3 +1=6==6
+// Perfect

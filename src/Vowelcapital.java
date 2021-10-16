@@ -3,7 +3,7 @@ public class Vowelcapital {
 
 	public static void main(String[] args) {
 		Scanner sc=new Scanner(System.in);
-		String s1=sc.next();
+		String s1=sc.nextLine();
 		for(int i=0;i<s1.length();i++)
 		{
 			switch(s1.charAt(i))
@@ -31,3 +31,15 @@ public class Vowelcapital {
 	}
 
 }
+
+
+
+//hello
+//hEllO
+
+
+// hello everyone
+// hEllO EvEryOnE
+
+// hi hello
+// hI hEllO

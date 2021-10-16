@@ -11,6 +11,7 @@ public class palindrome {
 		{
 			int rem=n%10;
 			iSum=iSum*10+rem;
+			
 			n=n/10;
 		}
 		if(iSum==iNum)
@@ -26,3 +27,11 @@ public class palindrome {
 	}
 
 }
+
+
+// 121==121
+// Palindrome
+
+
+// 1234!=4321
+// Not a palindrome
