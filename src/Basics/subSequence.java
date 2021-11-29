@@ -1,11 +1,10 @@
-
 package Basics;
 
 
 /*
 SYNTAX
 
-Stringname.hashCode();
+Stringname subSequence(startindex,endindex);
 
 */ 
 
