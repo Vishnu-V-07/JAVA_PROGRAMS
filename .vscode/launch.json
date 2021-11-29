@@ -5,6 +5,353 @@
     "version": "0.2.0",
     "configurations": [
         {
+            "name": "Launch Angular",
+            "type": "chrome",
+            "request": "launch",
+            "preLaunchTask": "npm: start",
+            "url": "http://localhost:4200/",
+            "webRoot": "${workspaceFolder}"
+        }
+
+        {
+            "name": "Attach to Chrome",
+            "port": 9222,
+            "request": "attach",
+            "type": "pwa-chrome",
+            "webRoot": "${workspaceFolder}"
+        },
+
+        
+        {
+            "type": "java",
+            "name": "Launch hashCode",
+            "request": "launch",
+            "mainClass": "Basics.hashCode",
+            "projectName": "practice problem"
+        },
+        {
+            "type": "java",
+            "name": "Launch isEmpty",
+            "request": "launch",
+            "mainClass": "Basics.isEmpty",
+            "projectName": "practice problem"
+        },
+        {
+            "type": "java",
+            "name": "Launch endsWith",
+            "request": "launch",
+            "mainClass": "Basics.endsWith",
+            "projectName": "practice problem"
+        },
+        {
+            "type": "java",
+            "name": "Launch startsWith",
+            "request": "launch",
+            "mainClass": "Basics.startsWith",
+            "projectName": "practice problem"
+        },
+        {
+            "type": "java",
+            "name": "Launch ContinousSequence",
+            "request": "launch",
+            "mainClass": "InterviewQuestions.ContinousSequence",
+            "projectName": "practice problem"
+        },
+        {
+            "type": "java",
+            "name": "Launch whiteBlack",
+            "request": "launch",
+            "mainClass": "Zoho_Interview_questions.whiteBlack",
+            "projectName": "practice problem"
+        },
+        {
+            "type": "java",
+            "name": "Launch matches",
+            "request": "launch",
+            "mainClass": "Basics.matches",
+            "projectName": "practice problem"
+        },
+        {
+            "type": "java",
+            "name": "Launch toCharArray",
+            "request": "launch",
+            "mainClass": "Basics.toCharArray",
+            "projectName": "practice problem"
+        },
+        {
+            "type": "java",
+            "name": "Launch valueOf",
+            "request": "launch",
+            "mainClass": "Basics.valueOf",
+            "projectName": "practice problem"
+        },
+        {
+            "type": "java",
+            "name": "Launch toUpperCase",
+            "request": "launch",
+            "mainClass": "Basics.toUpperCase",
+            "projectName": "practice problem"
+        },
+        {
+            "type": "java",
+            "name": "Launch toLowerCase",
+            "request": "launch",
+            "mainClass": "Basics.toLowerCase",
+            "projectName": "practice problem"
+        },
+        {
+            "type": "java",
+            "name": "Launch split",
+            "request": "launch",
+            "mainClass": "Basics.split",
+            "projectName": "practice problem"
+        },
+        {
+            "type": "java",
+            "name": "Launch RemoveAllWhiteSpace",
+            "request": "launch",
+            "mainClass": "Basics.RemoveAllWhiteSpace",
+            "projectName": "practice problem"
+        },
+        {
+            "type": "java",
+            "name": "Launch trim",
+            "request": "launch",
+            "mainClass": "Basics.trim",
+            "projectName": "practice problem"
+        },
+        {
+            "type": "java",
+            "name": "Launch compareToIgnoreCase",
+            "request": "launch",
+            "mainClass": "Basics.compareToIgnoreCase",
+            "projectName": "practice problem"
+        },
+        {
+            "type": "java",
+            "name": "Launch compareTo",
+            "request": "launch",
+            "mainClass": "Basics.compareTo",
+            "projectName": "practice problem"
+        },
+        {
+            "type": "java",
+            "name": "Launch indexOf",
+            "request": "launch",
+            "mainClass": "Basics.indexOf",
+            "projectName": "practice problem"
+        },
+        {
+            "type": "java",
+            "name": "Launch charAt",
+            "request": "launch",
+            "mainClass": "Basics.charAt",
+            "projectName": "practice problem"
+        },
+        {
+            "type": "java",
+            "name": "Launch ReplaceFirst",
+            "request": "launch",
+            "mainClass": "Basics.ReplaceFirst",
+            "projectName": "practice problem"
+        },
+        {
+            "type": "java",
+            "name": "Launch ReplaceAll",
+            "request": "launch",
+            "mainClass": "Basics.ReplaceAll",
+            "projectName": "practice problem"
+        },
+        {
+            "type": "java",
+            "name": "Launch Squarerootsum",
+            "request": "launch",
+            "mainClass": "Numbers.Squarerootsum",
+            "projectName": "practice problem"
+        },
+        {
+            "type": "java",
+            "name": "Launch ReplaceString",
+            "request": "launch",
+            "mainClass": "Basics.ReplaceString",
+            "projectName": "practice problem"
+        },
+        {
+            "type": "java",
+            "name": "Launch joinString",
+            "request": "launch",
+            "mainClass": "Basics.joinString",
+            "projectName": "practice problem"
+        },
+        {
+            "type": "java",
+            "name": "Launch substring",
+            "request": "launch",
+            "mainClass": "Basics.substring",
+            "projectName": "practice problem"
+        },
+        {
+            "type": "java",
+            "name": "Launch Contains",
+            "request": "launch",
+            "mainClass": "Basics.Contains",
+            "projectName": "practice problem"
+        },
+        {
+            "type": "java",
+            "name": "Launch CreatingStringUsingNew",
+            "request": "launch",
+            "mainClass": "Basics.CreatingStringUsingNew",
+            "projectName": "practice problem"
+        },
+        {
+            "type": "java",
+            "name": "Launch CompareString",
+            "request": "launch",
+            "mainClass": "Basics.CompareString",
+            "projectName": "practice problem"
+        },
+        {
+            "type": "java",
+            "name": "Launch ConcatStrings",
+            "request": "launch",
+            "mainClass": "Basics.ConcatStrings",
+            "projectName": "practice problem"
+        },
+        {
+            "type": "java",
+            "name": "Launch StringLength",
+            "request": "launch",
+            "mainClass": "Basics.StringLength",
+            "projectName": "practice problem"
+        },
+        {
+            "type": "java",
+            "name": "Launch CreateAString",
+            "request": "launch",
+            "mainClass": "Basics.CreateAString",
+            "projectName": "practice problem"
+        },
+        {
+            "type": "java",
+            "name": "Launch DefaultConstructor",
+            "request": "launch",
+            "mainClass": "Basics.DefaultConstructor",
+            "projectName": "practice problem"
+        },
+        {
+            "type": "java",
+            "name": "Launch ParametrizedConstructor",
+            "request": "launch",
+            "mainClass": "Basics.ParametrizedConstructor",
+            "projectName": "practice problem"
+        },
+        {
+            "type": "java",
+            "name": "Launch Constructor",
+            "request": "launch",
+            "mainClass": "Basics.Constructor",
+            "projectName": "practice problem"
+        },
+        {
+            "type": "java",
+            "name": "Launch JavaMethods",
+            "request": "launch",
+            "mainClass": "Basics.JavaMethods",
+            "projectName": "practice problem"
+        },
+        {
+            "type": "java",
+            "name": "Launch JavaClass",
+            "request": "launch",
+            "mainClass": "Basics.JavaClass",
+            "projectName": "practice problem"
+        },
+        {
+            "type": "java",
+            "name": "Launch CopyArrrayAssignment",
+            "request": "launch",
+            "mainClass": "Basics.CopyArrrayAssignment",
+            "projectName": "practice problem"
+        },
+        {
+            "type": "java",
+            "name": "Launch Input2DArray",
+            "request": "launch",
+            "mainClass": "Basics.Input2DArray",
+            "projectName": "practice problem"
+        },
+        {
+            "type": "java",
+            "name": "Launch InitializationOf2dArray",
+            "request": "launch",
+            "mainClass": "Basics.InitializationOf2dArray",
+            "projectName": "practice problem"
+        },
+        {
+            "type": "java",
+            "name": "Launch SumAverage",
+            "request": "launch",
+            "mainClass": "Basics.SumAverage",
+            "projectName": "practice problem"
+        },
+        {
+            "type": "java",
+            "name": "Launch SumOfElements",
+            "request": "launch",
+            "mainClass": "Basics.SumOfElements",
+            "projectName": "practice problem"
+        },
+        {
+            "type": "java",
+            "name": "Launch LoopingThroughArray",
+            "request": "launch",
+            "mainClass": "Basics.LoopingThroughArray",
+            "projectName": "practice problem"
+        },
+        {
+            "type": "java",
+            "name": "Launch ArrayIntializ",
+            "request": "launch",
+            "mainClass": "Basics.ArrayIntializ",
+            "projectName": "practice problem"
+        },
+        {
+            "type": "java",
+            "name": "Launch forEachloop",
+            "request": "launch",
+            "mainClass": "Basics.forEachloop",
+            "projectName": "practice problem"
+        },
+        {
+            "type": "java",
+            "name": "Launch Continue",
+            "request": "launch",
+            "mainClass": "Basics.Continue",
+            "projectName": "practice problem"
+        },
+        {
+            "type": "java",
+            "name": "Launch Break",
+            "request": "launch",
+            "mainClass": "Basics.Break",
+            "projectName": "practice problem"
+        },
+        {
+            "type": "java",
+            "name": "Launch doWhile",
+            "request": "launch",
+            "mainClass": "Basics.doWhile",
+            "projectName": "practice problem"
+        },
+        {
+            "type": "java",
+            "name": "Launch While",
+            "request": "launch",
+            "mainClass": "Basics.While",
+            "projectName": "practice problem"
+        },
+        {
             "type": "java",
             "name": "Launch forloop",
             "request": "launch",
