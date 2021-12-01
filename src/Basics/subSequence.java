@@ -4,7 +4,7 @@ package Basics;
 /*
 SYNTAX
 
-Stringname subSequence(startindex,endindex);
+Stringname.subSequence(startindex,endindex);
 
 */ 
 
@@ -12,18 +12,18 @@ public class subSequence {
     
     public static void main(String args[])
     {
-        String s1="Java";
-        String s2="Programming";
+        String s1="Hello Java";
+        CharSequence cs=s1.subSequence(4,9);//o Jav
         
-        System.out.println(s1.hashCode());
-        System.out.println(s2.hashCode());
+        System.out.println(cs);
+        
     }
 }
 
 /*
 OUTPUT
 
-2301506
--1615787847
+o Jav
+
 */
 
