@@ -1,5 +1,8 @@
 package Oops;
 
+
+
+
 class Bird1
 {
     public String name;
@@ -24,3 +27,11 @@ public class Public {
     }
     
 }
+
+/*
+
+OUTPUT
+
+The Bird name is Eagle
+
+*/
