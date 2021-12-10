@@ -10,7 +10,7 @@ final class FinalClass
 
 }
 //Here we ty to extend final class
-class finalClass extends FinalClass
+class finalClass/* extends FinalClass*/
 {
     public void display()
     {
@@ -22,3 +22,9 @@ class finalClass extends FinalClass
         obj.display();
     }
 }
+/* 
+OUTPUT
+
+error
+
+ */
